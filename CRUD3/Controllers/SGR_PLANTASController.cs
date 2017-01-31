@@ -13,8 +13,6 @@ namespace CRUD3.Controllers
     public class SGR_PLANTASController : Controller
     {
 
-
-        //PRUEBAAAAAAAAAAAAAAAAAA
         private BD db = new BD();
 
         // GET: SGR_PLANTAS
