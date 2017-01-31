@@ -1,0 +1,66 @@
+﻿@model CRUD3.SGR_PLANTAS
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SGR_PLANTAS</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.COD_SISS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.COD_SISS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_OPERACION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_OPERACION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ACTIVO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ACTIVO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_EMPRESAS.NOMBRE_EMPRESA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_EMPRESAS.NOMBRE_EMPRESA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_LOCALIDADES.NOMBRE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_LOCALIDADES.NOMBRE)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_PLANTA }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c4a120f703434466b51c6cc86e1b4b4a" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.BIN_R1DzHbCu6sngUGQKCMVXuQ___0" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_CLIENTES" Width="1.5" PointX="7.5" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_CODIGOS_CIIU" Width="1.5" PointX="10.5" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_COMUNAS" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_EMPRESAS" Width="1.5" PointX="5.25" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_ESTADOS_CLIENTE" Width="1.5" PointX="5.25" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_FISCALIZADORES" Width="1.5" PointX="7.5" PointY="29.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_FRECUENCIAS_MUES" Width="1.5" PointX="5.25" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_LABORATORIOS" Width="1.5" PointX="12.75" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_LABS_CIIU_TARIFA" Width="1.5" PointX="15" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_LABS_LOC_MUEST" Width="1.5" PointX="15" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_LOCALIDADES" Width="1.5" PointX="8.25" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_MODULOS" Width="1.5" PointX="3" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_MUESTREADORES" Width="1.5" PointX="15" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_PARAMETROS_RILES" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_PERFILES" Width="1.5" PointX="0.75" PointY="13" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_PLANTAS" Width="1.5" PointX="10.5" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_PROVINCIAS" Width="1.5" PointX="3" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_REGIONES" Width="1.5" PointX="3" PointY="17.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_SERVICIOS" Width="1.5" PointX="9.75" PointY="17.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_SERVICIOS_UDS" Width="1.5" PointX="15" PointY="16.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_TIPOS_CALC_EXC" Width="1.5" PointX="5.25" PointY="20.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_TIPOS_CLIENTE" Width="1.5" PointX="5.25" PointY="22.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_TIPOS_CONTROL" Width="1.5" PointX="4.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_TIPOS_MUESTRA" Width="1.5" PointX="4.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_TIPOS_SIST_TRAT" Width="1.5" PointX="5.25" PointY="25.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_UNIDADES_DESCARGA" Width="1.5" PointX="12.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.SGR_USUARIOS" Width="1.5" PointX="3" PointY="13.875" IsExpanded="true" />
+        <AssociationConnector Association="Model.SYS_C00175774" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175777" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175787" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175790" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175793" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175796" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175799" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175802" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175805" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175850" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175809" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176424" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175785" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175786" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176409" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176442" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176423" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176432" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176438" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176433" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176440" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00176387" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175782" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175848" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SYS_C00175849" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SGR_PERFILES_MODULOS" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.SGR_USUARIOS_EMPRESAS" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

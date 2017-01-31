@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CRUD3.BundleConfig" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\BundleConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.FilterConfig" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\FilterConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.EmailService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUD3.SmsService" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="CRUD3.ApplicationUserManager" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.ApplicationSignInManager" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\IdentityConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.RouteConfig" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\RouteConfig.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Startup" Collapsed="true">
+    <Position X="4" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAA=</HashCode>
+      <FileName>App_Start\Startup.Auth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.MvcApplication" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAA=</HashCode>
+      <FileName>Global.asax.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.BD" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CMAAAACiAAAAERACAMAKAgAgEAEAABABAMAEEAAAAQI=</HashCode>
+      <FileName>Model1.Context.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.BIN_R1DzHbCu6sngUGQKCMVXuQ___0" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>BIN_R1DzHbCu6sngUGQKCMVXuQ___0.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_CLIENTES" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAEAABGBAIAdQVCAMiSBEhEGIUFAJkDwChPMBCkAAA=</HashCode>
+      <FileName>SGR_CLIENTES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_CODIGOS_CIIU" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAEIBAAAAQ=</HashCode>
+      <FileName>SGR_CODIGOS_CIIU.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_COMUNAS" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAAAAAAAAAAAgAAAAQAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>SGR_COMUNAS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_EMPRESAS" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAAAAAAAAAAEAgAAEAgAABACAAAAIAAAgQA=</HashCode>
+      <FileName>SGR_EMPRESAS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_ESTADOS_CLIENTE" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAgAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SGR_ESTADOS_CLIENTE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_FISCALIZADORES" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAEAAAAAAAICAAAACAAAAIAAAAAA=</HashCode>
+      <FileName>SGR_FISCALIZADORES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_FRECUENCIAS_MUES" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>SGR_FRECUENCIAS_MUES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_LABORATORIOS" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAACAAAAEAACAEBABAAAEAAAAAAI=</HashCode>
+      <FileName>SGR_LABORATORIOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_LABS_CIIU_TARIFA" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAAAAAAAAAAAAEAAAAEgAABAAAAA=</HashCode>
+      <FileName>SGR_LABS_CIIU_TARIFA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_LABS_LOC_MUEST" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACQAAAAAAAAAAIAAAAAAAAEBAAAAgAIAAAAAA=</HashCode>
+      <FileName>SGR_LABS_LOC_MUEST.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_LOCALIDADES" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEIQAABAAAAAAAAAAAAI=</HashCode>
+      <FileName>SGR_LOCALIDADES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_MODULOS" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAABAAAAACAAQAAAA=</HashCode>
+      <FileName>SGR_MODULOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_MUESTREADORES" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAABAAAAAAAAAAAICIEgAAAAAAKAAAAAA=</HashCode>
+      <FileName>SGR_MUESTREADORES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_PARAMETROS_RILES" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAASQAAAAEAAAAAAIAAAAAAAABAAAAAAAQIAAAAAA=</HashCode>
+      <FileName>SGR_PARAMETROS_RILES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_PERFILES" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAQCAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SGR_PERFILES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_PLANTAS" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAQAAAAAAAAAAAEAIAgAAAABAABACAAAAIACAAAA=</HashCode>
+      <FileName>SGR_PLANTAS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_PROVINCIAS" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAQAAAAAEAAAAAAAAABAAAAEAAAAAAAA=</HashCode>
+      <FileName>SGR_PROVINCIAS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_REGIONES" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAgAAAAAAAAAEAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SGR_REGIONES.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_SERVICIOS" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAACAgAICgAAAAgAAAAAAAAAACCQAICAAgAA=</HashCode>
+      <FileName>SGR_SERVICIOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_SERVICIOS_UDS" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAEAAAAAAEAAAAAACQAAAAAAAA=</HashCode>
+      <FileName>SGR_SERVICIOS_UDS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_TIPOS_CALC_EXC" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAEAAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>SGR_TIPOS_CALC_EXC.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_TIPOS_CLIENTE" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>SGR_TIPOS_CLIENTE.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_TIPOS_CONTROL" Collapsed="true">
+    <Position X="7.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SGR_TIPOS_CONTROL.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_TIPOS_MUESTRA" Collapsed="true">
+    <Position X="9.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SGR_TIPOS_MUESTRA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_TIPOS_SIST_TRAT" Collapsed="true">
+    <Position X="11" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQBAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SGR_TIPOS_SIST_TRAT.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_UNIDADES_DESCARGA" Collapsed="true">
+    <Position X="12.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAAAAAAAAAAACAAAEAgABAAAAAAAAAEABIBAAAAA=</HashCode>
+      <FileName>SGR_UNIDADES_DESCARGA.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.SGR_USUARIOS" Collapsed="true">
+    <Position X="0.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAIEAAAAAAAICIABAAQAAAAAAAAAA=</HashCode>
+      <FileName>SGR_USUARIOS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Controllers.AccountController" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAChACAAAAAAAAFgEgAABAABMKIAAAMRAAQgAAA=</HashCode>
+      <FileName>Controllers\AccountController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Controllers.HomeController" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEACAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\HomeController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Controllers.ManageController" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAQiAAgAAAAEFhAAAAAAEAIMIAAEEEgAAkAAA=</HashCode>
+      <FileName>Controllers\ManageController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Controllers.SGR_PLANTASController" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACARAACAAAAAAAAAAAEAAEACAAEAAAAAAAA=</HashCode>
+      <FileName>Controllers\SGR_PLANTASController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ExternalLoginConfirmationViewModel" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ExternalLoginListViewModel" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.SendCodeViewModel" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.VerifyCodeViewModel" Collapsed="true">
+    <Position X="5.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAEAAAAAAAgAAAAAAAAAAAAAAIAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ForgotViewModel" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.LoginViewModel" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAgAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.RegisterViewModel" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ResetPasswordViewModel" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAgAAAAAAAAAAACAAAAAAAAIAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ForgotPasswordViewModel" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\AccountViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ApplicationUser" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ApplicationDbContext" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\IdentityModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.IndexViewModel" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAQAAAAAAAAAAAAAAQAAAEAEA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ManageLoginsViewModel" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.FactorViewModel" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.SetPasswordViewModel" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ChangePasswordViewModel" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.AddPhoneNumberViewModel" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.VerifyPhoneNumberViewModel" Collapsed="true">
+    <Position X="7.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CRUD3.Models.ConfigureTwoFactorViewModel" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\ManageViewModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

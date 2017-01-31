@@ -1,0 +1,2039 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="Model.Store" Provider="Oracle.ManagedDataAccess.Client" ProviderManifestToken="10.2" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BIN$R1DzHbCu6sngUGQKCMVXuQ==$0">
+          <Key>
+            <PropertyRef Name="ID_FRECUENCIA" />
+          </Key>
+          <Property Name="ID_FRECUENCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_CLIENTES">
+          <Key>
+            <PropertyRef Name="ID_SGR" />
+          </Key>
+          <Property Name="ID_SGR" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_RUBRO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_EMPRESA" Type="number" Precision="38" Scale="0" />
+          <Property Name="RUT_CLIENTE" Type="varchar2" MaxLength="12" />
+          <Property Name="NOMBRE_CLIENTE" Type="varchar2" MaxLength="255" />
+          <Property Name="REP_LEGAL" Type="varchar2" MaxLength="255" />
+          <Property Name="RUT_REP_LEGAL" Type="varchar2" MaxLength="255" />
+          <Property Name="DV_REP_LEGAL" Type="varchar2" MaxLength="1" />
+          <Property Name="ID_SISS" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_PLANTA" Type="number" Precision="38" Scale="0" />
+          <Property Name="NOMBRE_FANTASIA" Type="varchar2" MaxLength="255" />
+          <Property Name="ID_TIPO_CLIENTE" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_ESTADO_CLIENTE" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_COMUNA" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_CONTRATO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_TIPO_CALCULO" Type="number" Precision="38" Scale="0" />
+          <Property Name="DIRECCION" Type="varchar2" MaxLength="255" />
+          <Property Name="SECTOR" Type="varchar2" MaxLength="255" />
+          <Property Name="FONO" Type="number" Precision="38" Scale="0" />
+          <Property Name="FAX" Type="number" Precision="38" Scale="0" />
+          <Property Name="CASILLA_POSTAL" Type="varchar2" MaxLength="255" />
+          <Property Name="CODIGO_POSTAL" Type="varchar2" MaxLength="255" />
+          <Property Name="CONTACTO1" Type="varchar2" MaxLength="255" />
+          <Property Name="RUT_CONTACTO1" Type="varchar2" MaxLength="12" />
+          <Property Name="EMAIL_CONTACTO1" Type="varchar2" MaxLength="255" />
+          <Property Name="FONO_CONTACTO1" Type="number" Precision="38" Scale="0" />
+          <Property Name="CONTACTO2" Type="varchar2" MaxLength="255" />
+          <Property Name="RUT_CONTACTO2" Type="varchar2" MaxLength="12" />
+          <Property Name="EMAIL_CONTACTO2" Type="varchar2" MaxLength="255" />
+          <Property Name="FONO_CONTACTO2" Type="number" Precision="38" Scale="0" />
+          <Property Name="CONTACTO_RILES" Type="varchar2" MaxLength="255" />
+          <Property Name="RUT_CONTACTO_RILES" Type="varchar2" MaxLength="12" />
+          <Property Name="EMAIL_CONTACTO_RILES" Type="varchar2" MaxLength="255" />
+          <Property Name="FONO_CONTACTO_RILES" Type="number" Precision="38" Scale="0" />
+          <Property Name="IDENT_CONCES_DGA_RILES" Type="varchar2" MaxLength="255" />
+          <Property Name="NRO_RCA" Type="number" Precision="38" Scale="0" />
+          <Property Name="ANO_RCA" Type="number" Precision="38" Scale="0" />
+          <Property Name="CONV_DGA_DSMOP" Type="varchar2" MaxLength="255" />
+          <Property Name="ID_TIPO_SIST_TRATAMI" Type="number" Precision="38" Scale="0" />
+          <Property Name="FECHA_ENT_OPER_RILES" Type="date" />
+          <Property Name="VOLUMEN_DESCARGA" Type="number" Precision="38" Scale="0" />
+          <Property Name="NRO_DESCARGAS" Type="number" Precision="38" Scale="0" />
+          <Property Name="RPM" Type="number" Precision="38" Scale="0" />
+          <Property Name="NRO_RPM" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_FREC_MUESTREO" Type="number" Precision="38" Scale="0" />
+          <Property Name="LINK_RPM" Type="varchar2" MaxLength="255" />
+          <Property Name="FECHA_T4_RPM" Type="date" />
+          <Property Name="ID_CON_DIRECTO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_CON_CONVENIO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_CON_OPERATIVO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_EXCEDENTES" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_DGA_RILES" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_DGA_AS" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_DGA_RESIDUOS" Type="number" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_1" Type="number" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_2" Type="number" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_3" Type="number" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_4" Type="number" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_5" Type="number" Precision="38" Scale="0" />
+          <Property Name="GIRO" Type="varchar2" MaxLength="255" />
+          <Property Name="RAZON_SOCIAL" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_CODIGOS_CIIU">
+          <Key>
+            <PropertyRef Name="COD_CIIU" />
+          </Key>
+          <Property Name="COD_CIIU" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+          <Property Name="PARAMETROS" Type="varchar2" MaxLength="255" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_COMUNAS">
+          <Key>
+            <PropertyRef Name="ID_COMUNA" />
+          </Key>
+          <Property Name="ID_COMUNA" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_PROVINCIA" Type="number" Precision="38" Scale="0" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_EMPRESAS">
+          <Key>
+            <PropertyRef Name="ID_EMPRESA" />
+          </Key>
+          <Property Name="ID_EMPRESA" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_REGION" Type="number" Precision="38" Scale="0" />
+          <Property Name="NOMBRE_EMPRESA" Type="varchar2" MaxLength="255" />
+          <Property Name="RUT_EMPRESA" Type="varchar2" MaxLength="12" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_ESTADOS_CLIENTE">
+          <Key>
+            <PropertyRef Name="ID_ESTADO_CLIENTE" />
+          </Key>
+          <Property Name="ID_ESTADO_CLIENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_FISCALIZADORES">
+          <Key>
+            <PropertyRef Name="ID_FISCALIZADOR" />
+          </Key>
+          <Property Name="ID_FISCALIZADOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="varchar2" MaxLength="10" />
+          <Property Name="NOMBRE" Type="varchar2" MaxLength="255" Nullable="false" />
+          <Property Name="ID_EMPRESA" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_FRECUENCIAS_MUES">
+          <Key>
+            <PropertyRef Name="ID_FREC_MUESTREO" />
+          </Key>
+          <Property Name="ID_FREC_MUESTREO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_LABORATORIOS">
+          <Key>
+            <PropertyRef Name="ID_LABORATORIO" />
+          </Key>
+          <Property Name="ID_LABORATORIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="varchar2" MaxLength="10" Nullable="false" />
+          <Property Name="RAZON_SOCIAL" Type="varchar2" MaxLength="255" Nullable="false" />
+          <Property Name="GIRO" Type="varchar2" MaxLength="255" />
+          <Property Name="ID_LOCALIDAD" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_LABS_CIIU_TARIFA">
+          <Key>
+            <PropertyRef Name="ID_LABORATORIO" />
+            <PropertyRef Name="COD_CIIU" />
+          </Key>
+          <Property Name="ID_LABORATORIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COD_CIIU" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COSTO" Type="number" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="SGR_LABS_LOC_MUEST">
+          <Key>
+            <PropertyRef Name="ID_LABORATORIO" />
+            <PropertyRef Name="ID_LOCALIDAD" />
+            <PropertyRef Name="ID_TIPO_MUESTRA" />
+          </Key>
+          <Property Name="ID_LABORATORIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_LOCALIDAD" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_TIPO_MUESTRA" Type="varchar2" MaxLength="5" Nullable="false" />
+          <Property Name="COSTO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_LOCALIDADES">
+          <Key>
+            <PropertyRef Name="ID_LOCALIDAD" />
+          </Key>
+          <Property Name="ID_LOCALIDAD" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NOMBRE" Type="varchar2" MaxLength="255" Nullable="false" />
+          <Property Name="ID_COMUNA" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_MODULOS">
+          <Key>
+            <PropertyRef Name="ID_MODULO" />
+          </Key>
+          <Property Name="ID_MODULO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TITULO" Type="varchar2" MaxLength="255" />
+          <Property Name="FUNCIONALIDAD" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_MUESTREADORES">
+          <Key>
+            <PropertyRef Name="ID_MUESTREADOR" />
+          </Key>
+          <Property Name="ID_MUESTREADOR" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NOMBRE" Type="varchar2" MaxLength="255" />
+          <Property Name="APE_PATERNO" Type="varchar2" MaxLength="255" />
+          <Property Name="APE_MATERNO" Type="varchar2" MaxLength="255" />
+          <Property Name="RUT" Type="varchar2" MaxLength="10" />
+          <Property Name="EMAIL" Type="varchar2" MaxLength="255" />
+          <Property Name="ID_LABORATORIO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_PARAMETROS_RILES">
+          <Key>
+            <PropertyRef Name="ID_PARAMETRO_RILES" />
+          </Key>
+          <Property Name="ID_PARAMETRO_RILES" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CODIGO_LIMS" Type="varchar2" MaxLength="100" />
+          <Property Name="SIGLA_SGR" Type="varchar2" MaxLength="100" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+          <Property Name="V_MINIMO" Type="number" Precision="38" Scale="0" />
+          <Property Name="V_MAXIMO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="UNIDAD_MEDIDA" Type="varchar2" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="SGR_PERFILES">
+          <Key>
+            <PropertyRef Name="ID_PERFIL" />
+          </Key>
+          <Property Name="ID_PERFIL" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_PERFILES_MODULOS">
+          <Key>
+            <PropertyRef Name="ID_PERFIL" />
+            <PropertyRef Name="ID_MODULO" />
+          </Key>
+          <Property Name="ID_PERFIL" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_MODULO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_PLANTAS">
+          <Key>
+            <PropertyRef Name="ID_PLANTA" />
+          </Key>
+          <Property Name="ID_PLANTA" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_EMPRESA" Type="number" Precision="38" Scale="0" />
+          <Property Name="COD_SISS" Type="varchar2" MaxLength="100" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+          <Property Name="ID_LOCALIDAD" Type="number" Precision="38" Scale="0" />
+          <Property Name="FECHA_OPERACION" Type="date" />
+          <Property Name="ACTIVO" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_PROVINCIAS">
+          <Key>
+            <PropertyRef Name="ID_PROVINCIA" />
+          </Key>
+          <Property Name="ID_PROVINCIA" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_REGION" Type="number" Precision="38" Scale="0" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_REGIONES">
+          <Key>
+            <PropertyRef Name="ID_REGION" />
+          </Key>
+          <Property Name="ID_REGION" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_SERVICIOS">
+          <Key>
+            <PropertyRef Name="ID_SERVICIO" />
+          </Key>
+          <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT_EMPRESA" Type="varchar2" MaxLength="12" />
+          <Property Name="TIPO_SERVICIO" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_SGR" Type="number" Precision="38" Scale="0" />
+          <Property Name="DIRECCION" Type="varchar2" MaxLength="255" />
+          <Property Name="VOLUMEN_DM" Type="number" Precision="38" Scale="0" />
+          <Property Name="ESTADO" Type="varchar2" MaxLength="255" />
+          <Property Name="LOCALIDAD" Type="varchar2" MaxLength="255" />
+          <Property Name="TIPO_FACTURACION" Type="number" Precision="38" Scale="0" />
+          <Property Name="CONVENIO" Type="number" Precision="38" Scale="0" />
+          <Property Name="FECHA_FACTURACION" Type="date" />
+        </EntityType>
+        <EntityType Name="SGR_SERVICIOS_UDS">
+          <Key>
+            <PropertyRef Name="ID_SERVICIO" />
+            <PropertyRef Name="ID_UD" />
+          </Key>
+          <Property Name="ID_SERVICIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_UD" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PORCENTAJE" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_CALC_EXC">
+          <Key>
+            <PropertyRef Name="ID_TIPO_CALCULO" />
+          </Key>
+          <Property Name="ID_TIPO_CALCULO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+          <Property Name="GLOSA" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_CLIENTE">
+          <Key>
+            <PropertyRef Name="ID_TIPO_CLIENTE" />
+          </Key>
+          <Property Name="ID_TIPO_CLIENTE" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_CONTROL">
+          <Key>
+            <PropertyRef Name="ID_TIPO_CONTROL" />
+          </Key>
+          <Property Name="ID_TIPO_CONTROL" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_MUESTRA">
+          <Key>
+            <PropertyRef Name="ID_TIPO_MUESTRA" />
+          </Key>
+          <Property Name="ID_TIPO_MUESTRA" Type="varchar2" MaxLength="5" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_SIST_TRAT">
+          <Key>
+            <PropertyRef Name="ID_TIPO_SIST_TRATAMI" />
+          </Key>
+          <Property Name="ID_TIPO_SIST_TRATAMI" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="varchar2" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="SGR_UNIDADES_DESCARGA">
+          <Key>
+            <PropertyRef Name="ID_UD" />
+          </Key>
+          <Property Name="ID_UD" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COD_SGC_UD" Type="number" Precision="38" Scale="0" />
+          <Property Name="ID_SGR" Type="number" Precision="38" Scale="0" />
+          <Property Name="COD_COLECTOR" Type="number" Precision="38" Scale="0" />
+          <Property Name="COD_CIIU" Type="number" Precision="38" Scale="0" />
+          <Property Name="UTM_NORTE_UD" Type="number" Precision="38" Scale="0" />
+          <Property Name="UTM_ESTE_UD" Type="number" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="SGR_USUARIOS">
+          <Key>
+            <PropertyRef Name="ID_USUARIO" />
+          </Key>
+          <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="varchar2" MaxLength="10" />
+          <Property Name="NOMBRE" Type="varchar2" MaxLength="255" />
+          <Property Name="APELLIDO" Type="varchar2" MaxLength="255" />
+          <Property Name="EMAIL" Type="varchar2" MaxLength="255" />
+          <Property Name="ID_PERFIL" Type="number" Precision="38" Scale="0" />
+        </EntityType>
+        <EntityType Name="SGR_USUARIOS_EMPRESAS">
+          <Key>
+            <PropertyRef Name="ID_USUARIO" />
+            <PropertyRef Name="ID_EMPRESA" />
+          </Key>
+          <Property Name="ID_USUARIO" Type="number" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_EMPRESA" Type="number" Precision="38" Scale="0" Nullable="false" />
+        </EntityType>
+        <Association Name="SYS_C00175774">
+          <End Role="SGR_PLANTAS" Type="Self.SGR_PLANTAS" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PLANTAS">
+              <PropertyRef Name="ID_PLANTA" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_PLANTA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175777">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175782">
+          <End Role="SGR_REGIONES" Type="Self.SGR_REGIONES" Multiplicity="0..1" />
+          <End Role="SGR_PROVINCIAS" Type="Self.SGR_PROVINCIAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_REGIONES">
+              <PropertyRef Name="ID_REGION" />
+            </Principal>
+            <Dependent Role="SGR_PROVINCIAS">
+              <PropertyRef Name="ID_REGION" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175785">
+          <End Role="SGR_PROVINCIAS" Type="Self.SGR_PROVINCIAS" Multiplicity="0..1" />
+          <End Role="SGR_COMUNAS" Type="Self.SGR_COMUNAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PROVINCIAS">
+              <PropertyRef Name="ID_PROVINCIA" />
+            </Principal>
+            <Dependent Role="SGR_COMUNAS">
+              <PropertyRef Name="ID_PROVINCIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175786">
+          <End Role="SGR_REGIONES" Type="Self.SGR_REGIONES" Multiplicity="0..1" />
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_REGIONES">
+              <PropertyRef Name="ID_REGION" />
+            </Principal>
+            <Dependent Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_REGION" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175787">
+          <End Role="SGR_COMUNAS" Type="Self.SGR_COMUNAS" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_COMUNAS">
+              <PropertyRef Name="ID_COMUNA" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_COMUNA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175790">
+          <End Role="SGR_TIPOS_CLIENTE" Type="Self.SGR_TIPOS_CLIENTE" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_TIPOS_CLIENTE">
+              <PropertyRef Name="ID_TIPO_CLIENTE" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_TIPO_CLIENTE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175793">
+          <End Role="SGR_ESTADOS_CLIENTE" Type="Self.SGR_ESTADOS_CLIENTE" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_ESTADOS_CLIENTE">
+              <PropertyRef Name="ID_ESTADO_CLIENTE" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_ESTADO_CLIENTE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175796">
+          <End Role="SGR_TIPOS_CALC_EXC" Type="Self.SGR_TIPOS_CALC_EXC" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_TIPOS_CALC_EXC">
+              <PropertyRef Name="ID_TIPO_CALCULO" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_TIPO_CALCULO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175799">
+          <End Role="SGR_TIPOS_SIST_TRAT" Type="Self.SGR_TIPOS_SIST_TRAT" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_TIPOS_SIST_TRAT">
+              <PropertyRef Name="ID_TIPO_SIST_TRATAMI" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_TIPO_SIST_TRATAMI" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175802">
+          <End Role="SGR_FRECUENCIAS_MUES" Type="Self.SGR_FRECUENCIAS_MUES" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_FRECUENCIAS_MUES">
+              <PropertyRef Name="ID_FREC_MUESTREO" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_FREC_MUESTREO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175805">
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="0..1" />
+          <End Role="SGR_UNIDADES_DESCARGA" Type="Self.SGR_UNIDADES_DESCARGA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_SGR" />
+            </Principal>
+            <Dependent Role="SGR_UNIDADES_DESCARGA">
+              <PropertyRef Name="ID_SGR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175809">
+          <End Role="SGR_CODIGOS_CIIU" Type="Self.SGR_CODIGOS_CIIU" Multiplicity="0..1" />
+          <End Role="SGR_UNIDADES_DESCARGA" Type="Self.SGR_UNIDADES_DESCARGA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CODIGOS_CIIU">
+              <PropertyRef Name="COD_CIIU" />
+            </Principal>
+            <Dependent Role="SGR_UNIDADES_DESCARGA">
+              <PropertyRef Name="COD_CIIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175848">
+          <End Role="SGR_SERVICIOS" Type="Self.SGR_SERVICIOS" Multiplicity="1" />
+          <End Role="SGR_SERVICIOS_UDS" Type="Self.SGR_SERVICIOS_UDS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_SERVICIOS">
+              <PropertyRef Name="ID_SERVICIO" />
+            </Principal>
+            <Dependent Role="SGR_SERVICIOS_UDS">
+              <PropertyRef Name="ID_SERVICIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175849">
+          <End Role="SGR_UNIDADES_DESCARGA" Type="Self.SGR_UNIDADES_DESCARGA" Multiplicity="1" />
+          <End Role="SGR_SERVICIOS_UDS" Type="Self.SGR_SERVICIOS_UDS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_UNIDADES_DESCARGA">
+              <PropertyRef Name="ID_UD" />
+            </Principal>
+            <Dependent Role="SGR_SERVICIOS_UDS">
+              <PropertyRef Name="ID_UD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175850">
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="0..1" />
+          <End Role="SGR_SERVICIOS" Type="Self.SGR_SERVICIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_SGR" />
+            </Principal>
+            <Dependent Role="SGR_SERVICIOS">
+              <PropertyRef Name="ID_SGR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176387">
+          <End Role="SGR_PERFILES" Type="Self.SGR_PERFILES" Multiplicity="0..1" />
+          <End Role="SGR_USUARIOS" Type="Self.SGR_USUARIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PERFILES">
+              <PropertyRef Name="ID_PERFIL" />
+            </Principal>
+            <Dependent Role="SGR_USUARIOS">
+              <PropertyRef Name="ID_PERFIL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176391">
+          <End Role="SGR_USUARIOS" Type="Self.SGR_USUARIOS" Multiplicity="1" />
+          <End Role="SGR_USUARIOS_EMPRESAS" Type="Self.SGR_USUARIOS_EMPRESAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_USUARIOS">
+              <PropertyRef Name="ID_USUARIO" />
+            </Principal>
+            <Dependent Role="SGR_USUARIOS_EMPRESAS">
+              <PropertyRef Name="ID_USUARIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176392">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="1" />
+          <End Role="SGR_USUARIOS_EMPRESAS" Type="Self.SGR_USUARIOS_EMPRESAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_USUARIOS_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176398">
+          <End Role="SGR_PERFILES" Type="Self.SGR_PERFILES" Multiplicity="1" />
+          <End Role="SGR_PERFILES_MODULOS" Type="Self.SGR_PERFILES_MODULOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PERFILES">
+              <PropertyRef Name="ID_PERFIL" />
+            </Principal>
+            <Dependent Role="SGR_PERFILES_MODULOS">
+              <PropertyRef Name="ID_PERFIL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176399">
+          <End Role="SGR_MODULOS" Type="Self.SGR_MODULOS" Multiplicity="1" />
+          <End Role="SGR_PERFILES_MODULOS" Type="Self.SGR_PERFILES_MODULOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_MODULOS">
+              <PropertyRef Name="ID_MODULO" />
+            </Principal>
+            <Dependent Role="SGR_PERFILES_MODULOS">
+              <PropertyRef Name="ID_MODULO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176409">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="1" />
+          <End Role="SGR_FISCALIZADORES" Type="Self.SGR_FISCALIZADORES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_FISCALIZADORES">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176423">
+          <End Role="SGR_LABORATORIOS" Type="Self.SGR_LABORATORIOS" Multiplicity="1" />
+          <End Role="SGR_LABS_CIIU_TARIFA" Type="Self.SGR_LABS_CIIU_TARIFA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LABORATORIOS">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Principal>
+            <Dependent Role="SGR_LABS_CIIU_TARIFA">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176424">
+          <End Role="SGR_CODIGOS_CIIU" Type="Self.SGR_CODIGOS_CIIU" Multiplicity="1" />
+          <End Role="SGR_LABS_CIIU_TARIFA" Type="Self.SGR_LABS_CIIU_TARIFA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CODIGOS_CIIU">
+              <PropertyRef Name="COD_CIIU" />
+            </Principal>
+            <Dependent Role="SGR_LABS_CIIU_TARIFA">
+              <PropertyRef Name="COD_CIIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176432">
+          <End Role="SGR_LABORATORIOS" Type="Self.SGR_LABORATORIOS" Multiplicity="1" />
+          <End Role="SGR_LABS_LOC_MUEST" Type="Self.SGR_LABS_LOC_MUEST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LABORATORIOS">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Principal>
+            <Dependent Role="SGR_LABS_LOC_MUEST">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176433">
+          <End Role="SGR_LOCALIDADES" Type="Self.SGR_LOCALIDADES" Multiplicity="1" />
+          <End Role="SGR_LABS_LOC_MUEST" Type="Self.SGR_LABS_LOC_MUEST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LOCALIDADES">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Principal>
+            <Dependent Role="SGR_LABS_LOC_MUEST">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176438">
+          <End Role="SGR_LABORATORIOS" Type="Self.SGR_LABORATORIOS" Multiplicity="0..1" />
+          <End Role="SGR_MUESTREADORES" Type="Self.SGR_MUESTREADORES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LABORATORIOS">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Principal>
+            <Dependent Role="SGR_MUESTREADORES">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176440">
+          <End Role="SGR_LOCALIDADES" Type="Self.SGR_LOCALIDADES" Multiplicity="0..1" />
+          <End Role="SGR_PLANTAS" Type="Self.SGR_PLANTAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LOCALIDADES">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Principal>
+            <Dependent Role="SGR_PLANTAS">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176442">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="0..1" />
+          <End Role="SGR_PLANTAS" Type="Self.SGR_PLANTAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_PLANTAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="ModelStoreContainer">
+          <EntitySet Name="BIN$R1DzHbCu6sngUGQKCMVXuQ==$0" EntityType="Self.BIN$R1DzHbCu6sngUGQKCMVXuQ==$0" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_CLIENTES" EntityType="Self.SGR_CLIENTES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_CODIGOS_CIIU" EntityType="Self.SGR_CODIGOS_CIIU" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_COMUNAS" EntityType="Self.SGR_COMUNAS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_EMPRESAS" EntityType="Self.SGR_EMPRESAS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_ESTADOS_CLIENTE" EntityType="Self.SGR_ESTADOS_CLIENTE" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_FISCALIZADORES" EntityType="Self.SGR_FISCALIZADORES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_FRECUENCIAS_MUES" EntityType="Self.SGR_FRECUENCIAS_MUES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_LABORATORIOS" EntityType="Self.SGR_LABORATORIOS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_LABS_CIIU_TARIFA" EntityType="Self.SGR_LABS_CIIU_TARIFA" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_LABS_LOC_MUEST" EntityType="Self.SGR_LABS_LOC_MUEST" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_LOCALIDADES" EntityType="Self.SGR_LOCALIDADES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_MODULOS" EntityType="Self.SGR_MODULOS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_MUESTREADORES" EntityType="Self.SGR_MUESTREADORES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_PARAMETROS_RILES" EntityType="Self.SGR_PARAMETROS_RILES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_PERFILES" EntityType="Self.SGR_PERFILES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_PERFILES_MODULOS" EntityType="Self.SGR_PERFILES_MODULOS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_PLANTAS" EntityType="Self.SGR_PLANTAS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_PROVINCIAS" EntityType="Self.SGR_PROVINCIAS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_REGIONES" EntityType="Self.SGR_REGIONES" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_SERVICIOS" EntityType="Self.SGR_SERVICIOS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_SERVICIOS_UDS" EntityType="Self.SGR_SERVICIOS_UDS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_TIPOS_CALC_EXC" EntityType="Self.SGR_TIPOS_CALC_EXC" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_TIPOS_CLIENTE" EntityType="Self.SGR_TIPOS_CLIENTE" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_TIPOS_CONTROL" EntityType="Self.SGR_TIPOS_CONTROL" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_TIPOS_MUESTRA" EntityType="Self.SGR_TIPOS_MUESTRA" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_TIPOS_SIST_TRAT" EntityType="Self.SGR_TIPOS_SIST_TRAT" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_UNIDADES_DESCARGA" EntityType="Self.SGR_UNIDADES_DESCARGA" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_USUARIOS" EntityType="Self.SGR_USUARIOS" Schema="SGR_BD" store:Type="Tables" />
+          <EntitySet Name="SGR_USUARIOS_EMPRESAS" EntityType="Self.SGR_USUARIOS_EMPRESAS" Schema="SGR_BD" store:Type="Tables" />
+          <AssociationSet Name="SYS_C00175774" Association="Self.SYS_C00175774">
+            <End Role="SGR_PLANTAS" EntitySet="SGR_PLANTAS" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175777" Association="Self.SYS_C00175777">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175782" Association="Self.SYS_C00175782">
+            <End Role="SGR_REGIONES" EntitySet="SGR_REGIONES" />
+            <End Role="SGR_PROVINCIAS" EntitySet="SGR_PROVINCIAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175785" Association="Self.SYS_C00175785">
+            <End Role="SGR_PROVINCIAS" EntitySet="SGR_PROVINCIAS" />
+            <End Role="SGR_COMUNAS" EntitySet="SGR_COMUNAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175786" Association="Self.SYS_C00175786">
+            <End Role="SGR_REGIONES" EntitySet="SGR_REGIONES" />
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175787" Association="Self.SYS_C00175787">
+            <End Role="SGR_COMUNAS" EntitySet="SGR_COMUNAS" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175790" Association="Self.SYS_C00175790">
+            <End Role="SGR_TIPOS_CLIENTE" EntitySet="SGR_TIPOS_CLIENTE" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175793" Association="Self.SYS_C00175793">
+            <End Role="SGR_ESTADOS_CLIENTE" EntitySet="SGR_ESTADOS_CLIENTE" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175796" Association="Self.SYS_C00175796">
+            <End Role="SGR_TIPOS_CALC_EXC" EntitySet="SGR_TIPOS_CALC_EXC" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175799" Association="Self.SYS_C00175799">
+            <End Role="SGR_TIPOS_SIST_TRAT" EntitySet="SGR_TIPOS_SIST_TRAT" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175802" Association="Self.SYS_C00175802">
+            <End Role="SGR_FRECUENCIAS_MUES" EntitySet="SGR_FRECUENCIAS_MUES" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175805" Association="Self.SYS_C00175805">
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+            <End Role="SGR_UNIDADES_DESCARGA" EntitySet="SGR_UNIDADES_DESCARGA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175809" Association="Self.SYS_C00175809">
+            <End Role="SGR_CODIGOS_CIIU" EntitySet="SGR_CODIGOS_CIIU" />
+            <End Role="SGR_UNIDADES_DESCARGA" EntitySet="SGR_UNIDADES_DESCARGA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175848" Association="Self.SYS_C00175848">
+            <End Role="SGR_SERVICIOS" EntitySet="SGR_SERVICIOS" />
+            <End Role="SGR_SERVICIOS_UDS" EntitySet="SGR_SERVICIOS_UDS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175849" Association="Self.SYS_C00175849">
+            <End Role="SGR_UNIDADES_DESCARGA" EntitySet="SGR_UNIDADES_DESCARGA" />
+            <End Role="SGR_SERVICIOS_UDS" EntitySet="SGR_SERVICIOS_UDS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175850" Association="Self.SYS_C00175850">
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+            <End Role="SGR_SERVICIOS" EntitySet="SGR_SERVICIOS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176387" Association="Self.SYS_C00176387">
+            <End Role="SGR_PERFILES" EntitySet="SGR_PERFILES" />
+            <End Role="SGR_USUARIOS" EntitySet="SGR_USUARIOS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176391" Association="Self.SYS_C00176391">
+            <End Role="SGR_USUARIOS" EntitySet="SGR_USUARIOS" />
+            <End Role="SGR_USUARIOS_EMPRESAS" EntitySet="SGR_USUARIOS_EMPRESAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176392" Association="Self.SYS_C00176392">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_USUARIOS_EMPRESAS" EntitySet="SGR_USUARIOS_EMPRESAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176398" Association="Self.SYS_C00176398">
+            <End Role="SGR_PERFILES" EntitySet="SGR_PERFILES" />
+            <End Role="SGR_PERFILES_MODULOS" EntitySet="SGR_PERFILES_MODULOS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176399" Association="Self.SYS_C00176399">
+            <End Role="SGR_MODULOS" EntitySet="SGR_MODULOS" />
+            <End Role="SGR_PERFILES_MODULOS" EntitySet="SGR_PERFILES_MODULOS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176409" Association="Self.SYS_C00176409">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_FISCALIZADORES" EntitySet="SGR_FISCALIZADORES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176423" Association="Self.SYS_C00176423">
+            <End Role="SGR_LABORATORIOS" EntitySet="SGR_LABORATORIOS" />
+            <End Role="SGR_LABS_CIIU_TARIFA" EntitySet="SGR_LABS_CIIU_TARIFA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176424" Association="Self.SYS_C00176424">
+            <End Role="SGR_CODIGOS_CIIU" EntitySet="SGR_CODIGOS_CIIU" />
+            <End Role="SGR_LABS_CIIU_TARIFA" EntitySet="SGR_LABS_CIIU_TARIFA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176432" Association="Self.SYS_C00176432">
+            <End Role="SGR_LABORATORIOS" EntitySet="SGR_LABORATORIOS" />
+            <End Role="SGR_LABS_LOC_MUEST" EntitySet="SGR_LABS_LOC_MUEST" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176433" Association="Self.SYS_C00176433">
+            <End Role="SGR_LOCALIDADES" EntitySet="SGR_LOCALIDADES" />
+            <End Role="SGR_LABS_LOC_MUEST" EntitySet="SGR_LABS_LOC_MUEST" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176438" Association="Self.SYS_C00176438">
+            <End Role="SGR_LABORATORIOS" EntitySet="SGR_LABORATORIOS" />
+            <End Role="SGR_MUESTREADORES" EntitySet="SGR_MUESTREADORES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176440" Association="Self.SYS_C00176440">
+            <End Role="SGR_LOCALIDADES" EntitySet="SGR_LOCALIDADES" />
+            <End Role="SGR_PLANTAS" EntitySet="SGR_PLANTAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176442" Association="Self.SYS_C00176442">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_PLANTAS" EntitySet="SGR_PLANTAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="BIN_R1DzHbCu6sngUGQKCMVXuQ___0">
+          <Key>
+            <PropertyRef Name="ID_FRECUENCIA" />
+          </Key>
+          <Property Name="ID_FRECUENCIA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SGR_CLIENTES">
+          <Key>
+            <PropertyRef Name="ID_SGR" />
+          </Key>
+          <Property Name="ID_SGR" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_RUBRO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_EMPRESA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="RUT_CLIENTE" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="NOMBRE_CLIENTE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="REP_LEGAL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RUT_REP_LEGAL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="DV_REP_LEGAL" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+          <Property Name="ID_SISS" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_PLANTA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="NOMBRE_FANTASIA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ID_TIPO_CLIENTE" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_ESTADO_CLIENTE" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_COMUNA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_CONTRATO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_TIPO_CALCULO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="DIRECCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="SECTOR" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FONO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="FAX" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CASILLA_POSTAL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CODIGO_POSTAL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="CONTACTO1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RUT_CONTACTO1" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL_CONTACTO1" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FONO_CONTACTO1" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CONTACTO2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RUT_CONTACTO2" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL_CONTACTO2" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FONO_CONTACTO2" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CONTACTO_RILES" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RUT_CONTACTO_RILES" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL_CONTACTO_RILES" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FONO_CONTACTO_RILES" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="IDENT_CONCES_DGA_RILES" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="NRO_RCA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ANO_RCA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CONV_DGA_DSMOP" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ID_TIPO_SIST_TRATAMI" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="FECHA_ENT_OPER_RILES" Type="DateTime" />
+          <Property Name="VOLUMEN_DESCARGA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="NRO_DESCARGAS" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="RPM" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="NRO_RPM" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_FREC_MUESTREO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="LINK_RPM" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FECHA_T4_RPM" Type="DateTime" />
+          <Property Name="ID_CON_DIRECTO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_CON_CONVENIO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_CON_OPERATIVO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_EXCEDENTES" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_DGA_RILES" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_DGA_AS" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_DGA_RESIDUOS" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_1" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_2" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_3" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_4" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CAMPO_F_5" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="GIRO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RAZON_SOCIAL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_PLANTAS" Relationship="Self.SYS_C00175774" FromRole="SGR_CLIENTES" ToRole="SGR_PLANTAS" />
+          <NavigationProperty Name="SGR_EMPRESAS" Relationship="Self.SYS_C00175777" FromRole="SGR_CLIENTES" ToRole="SGR_EMPRESAS" />
+          <NavigationProperty Name="SGR_COMUNAS" Relationship="Self.SYS_C00175787" FromRole="SGR_CLIENTES" ToRole="SGR_COMUNAS" />
+          <NavigationProperty Name="SGR_TIPOS_CLIENTE" Relationship="Self.SYS_C00175790" FromRole="SGR_CLIENTES" ToRole="SGR_TIPOS_CLIENTE" />
+          <NavigationProperty Name="SGR_ESTADOS_CLIENTE" Relationship="Self.SYS_C00175793" FromRole="SGR_CLIENTES" ToRole="SGR_ESTADOS_CLIENTE" />
+          <NavigationProperty Name="SGR_TIPOS_CALC_EXC" Relationship="Self.SYS_C00175796" FromRole="SGR_CLIENTES" ToRole="SGR_TIPOS_CALC_EXC" />
+          <NavigationProperty Name="SGR_TIPOS_SIST_TRAT" Relationship="Self.SYS_C00175799" FromRole="SGR_CLIENTES" ToRole="SGR_TIPOS_SIST_TRAT" />
+          <NavigationProperty Name="SGR_FRECUENCIAS_MUES" Relationship="Self.SYS_C00175802" FromRole="SGR_CLIENTES" ToRole="SGR_FRECUENCIAS_MUES" />
+          <NavigationProperty Name="SGR_UNIDADES_DESCARGA" Relationship="Self.SYS_C00175805" FromRole="SGR_CLIENTES" ToRole="SGR_UNIDADES_DESCARGA" />
+          <NavigationProperty Name="SGR_SERVICIOS" Relationship="Self.SYS_C00175850" FromRole="SGR_CLIENTES" ToRole="SGR_SERVICIOS" />
+        </EntityType>
+        <EntityType Name="SGR_CODIGOS_CIIU">
+          <Key>
+            <PropertyRef Name="COD_CIIU" />
+          </Key>
+          <Property Name="COD_CIIU" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="PARAMETROS" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_UNIDADES_DESCARGA" Relationship="Self.SYS_C00175809" FromRole="SGR_CODIGOS_CIIU" ToRole="SGR_UNIDADES_DESCARGA" />
+          <NavigationProperty Name="SGR_LABS_CIIU_TARIFA" Relationship="Self.SYS_C00176424" FromRole="SGR_CODIGOS_CIIU" ToRole="SGR_LABS_CIIU_TARIFA" />
+        </EntityType>
+        <EntityType Name="SGR_COMUNAS">
+          <Key>
+            <PropertyRef Name="ID_COMUNA" />
+          </Key>
+          <Property Name="ID_COMUNA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_PROVINCIA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175787" FromRole="SGR_COMUNAS" ToRole="SGR_CLIENTES" />
+          <NavigationProperty Name="SGR_PROVINCIAS" Relationship="Self.SYS_C00175785" FromRole="SGR_COMUNAS" ToRole="SGR_PROVINCIAS" />
+        </EntityType>
+        <EntityType Name="SGR_EMPRESAS">
+          <Key>
+            <PropertyRef Name="ID_EMPRESA" />
+          </Key>
+          <Property Name="ID_EMPRESA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_REGION" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="NOMBRE_EMPRESA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RUT_EMPRESA" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175777" FromRole="SGR_EMPRESAS" ToRole="SGR_CLIENTES" />
+          <NavigationProperty Name="SGR_REGIONES" Relationship="Self.SYS_C00175786" FromRole="SGR_EMPRESAS" ToRole="SGR_REGIONES" />
+          <NavigationProperty Name="SGR_FISCALIZADORES" Relationship="Self.SYS_C00176409" FromRole="SGR_EMPRESAS" ToRole="SGR_FISCALIZADORES" />
+          <NavigationProperty Name="SGR_PLANTAS" Relationship="Self.SYS_C00176442" FromRole="SGR_EMPRESAS" ToRole="SGR_PLANTAS" />
+          <NavigationProperty Name="SGR_USUARIOS" Relationship="Self.SGR_USUARIOS_EMPRESAS" FromRole="SGR_EMPRESAS" ToRole="SGR_USUARIOS" />
+        </EntityType>
+        <EntityType Name="SGR_ESTADOS_CLIENTE">
+          <Key>
+            <PropertyRef Name="ID_ESTADO_CLIENTE" />
+          </Key>
+          <Property Name="ID_ESTADO_CLIENTE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175793" FromRole="SGR_ESTADOS_CLIENTE" ToRole="SGR_CLIENTES" />
+        </EntityType>
+        <EntityType Name="SGR_FISCALIZADORES">
+          <Key>
+            <PropertyRef Name="ID_FISCALIZADOR" />
+          </Key>
+          <Property Name="ID_FISCALIZADOR" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="NOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ID_EMPRESA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_EMPRESAS" Relationship="Self.SYS_C00176409" FromRole="SGR_FISCALIZADORES" ToRole="SGR_EMPRESAS" />
+        </EntityType>
+        <EntityType Name="SGR_FRECUENCIAS_MUES">
+          <Key>
+            <PropertyRef Name="ID_FREC_MUESTREO" />
+          </Key>
+          <Property Name="ID_FREC_MUESTREO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175802" FromRole="SGR_FRECUENCIAS_MUES" ToRole="SGR_CLIENTES" />
+        </EntityType>
+        <EntityType Name="SGR_LABORATORIOS">
+          <Key>
+            <PropertyRef Name="ID_LABORATORIO" />
+          </Key>
+          <Property Name="ID_LABORATORIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="RAZON_SOCIAL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="GIRO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ID_LOCALIDAD" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_LABS_CIIU_TARIFA" Relationship="Self.SYS_C00176423" FromRole="SGR_LABORATORIOS" ToRole="SGR_LABS_CIIU_TARIFA" />
+          <NavigationProperty Name="SGR_LABS_LOC_MUEST" Relationship="Self.SYS_C00176432" FromRole="SGR_LABORATORIOS" ToRole="SGR_LABS_LOC_MUEST" />
+          <NavigationProperty Name="SGR_MUESTREADORES" Relationship="Self.SYS_C00176438" FromRole="SGR_LABORATORIOS" ToRole="SGR_MUESTREADORES" />
+        </EntityType>
+        <EntityType Name="SGR_LABS_CIIU_TARIFA">
+          <Key>
+            <PropertyRef Name="ID_LABORATORIO" />
+            <PropertyRef Name="COD_CIIU" />
+          </Key>
+          <Property Name="ID_LABORATORIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COD_CIIU" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COSTO" Type="Decimal" Precision="38" Scale="0" />
+          <NavigationProperty Name="SGR_CODIGOS_CIIU" Relationship="Self.SYS_C00176424" FromRole="SGR_LABS_CIIU_TARIFA" ToRole="SGR_CODIGOS_CIIU" />
+          <NavigationProperty Name="SGR_LABORATORIOS" Relationship="Self.SYS_C00176423" FromRole="SGR_LABS_CIIU_TARIFA" ToRole="SGR_LABORATORIOS" />
+        </EntityType>
+        <EntityType Name="SGR_LABS_LOC_MUEST">
+          <Key>
+            <PropertyRef Name="ID_LABORATORIO" />
+            <PropertyRef Name="ID_LOCALIDAD" />
+            <PropertyRef Name="ID_TIPO_MUESTRA" />
+          </Key>
+          <Property Name="ID_LABORATORIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_LOCALIDAD" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_TIPO_MUESTRA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="COSTO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_LABORATORIOS" Relationship="Self.SYS_C00176432" FromRole="SGR_LABS_LOC_MUEST" ToRole="SGR_LABORATORIOS" />
+          <NavigationProperty Name="SGR_LOCALIDADES" Relationship="Self.SYS_C00176433" FromRole="SGR_LABS_LOC_MUEST" ToRole="SGR_LOCALIDADES" />
+        </EntityType>
+        <EntityType Name="SGR_LOCALIDADES">
+          <Key>
+            <PropertyRef Name="ID_LOCALIDAD" />
+          </Key>
+          <Property Name="ID_LOCALIDAD" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="ID_COMUNA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_LABS_LOC_MUEST" Relationship="Self.SYS_C00176433" FromRole="SGR_LOCALIDADES" ToRole="SGR_LABS_LOC_MUEST" />
+          <NavigationProperty Name="SGR_PLANTAS" Relationship="Self.SYS_C00176440" FromRole="SGR_LOCALIDADES" ToRole="SGR_PLANTAS" />
+        </EntityType>
+        <EntityType Name="SGR_MODULOS">
+          <Key>
+            <PropertyRef Name="ID_MODULO" />
+          </Key>
+          <Property Name="ID_MODULO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="TITULO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="FUNCIONALIDAD" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_PERFILES" Relationship="Self.SGR_PERFILES_MODULOS" FromRole="SGR_MODULOS" ToRole="SGR_PERFILES" />
+        </EntityType>
+        <EntityType Name="SGR_MUESTREADORES">
+          <Key>
+            <PropertyRef Name="ID_MUESTREADOR" />
+          </Key>
+          <Property Name="ID_MUESTREADOR" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="NOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="APE_PATERNO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="APE_MATERNO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="RUT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ID_LABORATORIO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_LABORATORIOS" Relationship="Self.SYS_C00176438" FromRole="SGR_MUESTREADORES" ToRole="SGR_LABORATORIOS" />
+        </EntityType>
+        <EntityType Name="SGR_PARAMETROS_RILES">
+          <Key>
+            <PropertyRef Name="ID_PARAMETRO_RILES" />
+          </Key>
+          <Property Name="ID_PARAMETRO_RILES" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="CODIGO_LIMS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="SIGLA_SGR" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="V_MINIMO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="V_MAXIMO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="UNIDAD_MEDIDA" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SGR_PERFILES">
+          <Key>
+            <PropertyRef Name="ID_PERFIL" />
+          </Key>
+          <Property Name="ID_PERFIL" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_USUARIOS" Relationship="Self.SYS_C00176387" FromRole="SGR_PERFILES" ToRole="SGR_USUARIOS" />
+          <NavigationProperty Name="SGR_MODULOS" Relationship="Self.SGR_PERFILES_MODULOS" FromRole="SGR_PERFILES" ToRole="SGR_MODULOS" />
+        </EntityType>
+        <EntityType Name="SGR_PLANTAS">
+          <Key>
+            <PropertyRef Name="ID_PLANTA" />
+          </Key>
+          <Property Name="ID_PLANTA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_EMPRESA" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="COD_SISS" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ID_LOCALIDAD" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="FECHA_OPERACION" Type="DateTime" />
+          <Property Name="ACTIVO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175774" FromRole="SGR_PLANTAS" ToRole="SGR_CLIENTES" />
+          <NavigationProperty Name="SGR_EMPRESAS" Relationship="Self.SYS_C00176442" FromRole="SGR_PLANTAS" ToRole="SGR_EMPRESAS" />
+          <NavigationProperty Name="SGR_LOCALIDADES" Relationship="Self.SYS_C00176440" FromRole="SGR_PLANTAS" ToRole="SGR_LOCALIDADES" />
+        </EntityType>
+        <EntityType Name="SGR_PROVINCIAS">
+          <Key>
+            <PropertyRef Name="ID_PROVINCIA" />
+          </Key>
+          <Property Name="ID_PROVINCIA" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_REGION" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_COMUNAS" Relationship="Self.SYS_C00175785" FromRole="SGR_PROVINCIAS" ToRole="SGR_COMUNAS" />
+          <NavigationProperty Name="SGR_REGIONES" Relationship="Self.SYS_C00175782" FromRole="SGR_PROVINCIAS" ToRole="SGR_REGIONES" />
+        </EntityType>
+        <EntityType Name="SGR_REGIONES">
+          <Key>
+            <PropertyRef Name="ID_REGION" />
+          </Key>
+          <Property Name="ID_REGION" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_EMPRESAS" Relationship="Self.SYS_C00175786" FromRole="SGR_REGIONES" ToRole="SGR_EMPRESAS" />
+          <NavigationProperty Name="SGR_PROVINCIAS" Relationship="Self.SYS_C00175782" FromRole="SGR_REGIONES" ToRole="SGR_PROVINCIAS" />
+        </EntityType>
+        <EntityType Name="SGR_SERVICIOS">
+          <Key>
+            <PropertyRef Name="ID_SERVICIO" />
+          </Key>
+          <Property Name="ID_SERVICIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT_EMPRESA" Type="String" MaxLength="12" FixedLength="false" Unicode="false" />
+          <Property Name="TIPO_SERVICIO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_SGR" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="DIRECCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="VOLUMEN_DM" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ESTADO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="LOCALIDAD" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="TIPO_FACTURACION" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="CONVENIO" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="FECHA_FACTURACION" Type="DateTime" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175850" FromRole="SGR_SERVICIOS" ToRole="SGR_CLIENTES" />
+          <NavigationProperty Name="SGR_SERVICIOS_UDS" Relationship="Self.SYS_C00175848" FromRole="SGR_SERVICIOS" ToRole="SGR_SERVICIOS_UDS" />
+        </EntityType>
+        <EntityType Name="SGR_SERVICIOS_UDS">
+          <Key>
+            <PropertyRef Name="ID_SERVICIO" />
+            <PropertyRef Name="ID_UD" />
+          </Key>
+          <Property Name="ID_SERVICIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="ID_UD" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="PORCENTAJE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <NavigationProperty Name="SGR_SERVICIOS" Relationship="Self.SYS_C00175848" FromRole="SGR_SERVICIOS_UDS" ToRole="SGR_SERVICIOS" />
+          <NavigationProperty Name="SGR_UNIDADES_DESCARGA" Relationship="Self.SYS_C00175849" FromRole="SGR_SERVICIOS_UDS" ToRole="SGR_UNIDADES_DESCARGA" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_CALC_EXC">
+          <Key>
+            <PropertyRef Name="ID_TIPO_CALCULO" />
+          </Key>
+          <Property Name="ID_TIPO_CALCULO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="GLOSA" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175796" FromRole="SGR_TIPOS_CALC_EXC" ToRole="SGR_CLIENTES" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_CLIENTE">
+          <Key>
+            <PropertyRef Name="ID_TIPO_CLIENTE" />
+          </Key>
+          <Property Name="ID_TIPO_CLIENTE" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175790" FromRole="SGR_TIPOS_CLIENTE" ToRole="SGR_CLIENTES" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_CONTROL">
+          <Key>
+            <PropertyRef Name="ID_TIPO_CONTROL" />
+          </Key>
+          <Property Name="ID_TIPO_CONTROL" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_MUESTRA">
+          <Key>
+            <PropertyRef Name="ID_TIPO_MUESTRA" />
+          </Key>
+          <Property Name="ID_TIPO_MUESTRA" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityType Name="SGR_TIPOS_SIST_TRAT">
+          <Key>
+            <PropertyRef Name="ID_TIPO_SIST_TRATAMI" />
+          </Key>
+          <Property Name="ID_TIPO_SIST_TRATAMI" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="DESCRIPCION" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175799" FromRole="SGR_TIPOS_SIST_TRAT" ToRole="SGR_CLIENTES" />
+        </EntityType>
+        <EntityType Name="SGR_UNIDADES_DESCARGA">
+          <Key>
+            <PropertyRef Name="ID_UD" />
+          </Key>
+          <Property Name="ID_UD" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="COD_SGC_UD" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="ID_SGR" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="COD_COLECTOR" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="COD_CIIU" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="UTM_NORTE_UD" Type="Decimal" Precision="38" Scale="0" />
+          <Property Name="UTM_ESTE_UD" Type="Decimal" Precision="38" Scale="0" />
+          <NavigationProperty Name="SGR_CLIENTES" Relationship="Self.SYS_C00175805" FromRole="SGR_UNIDADES_DESCARGA" ToRole="SGR_CLIENTES" />
+          <NavigationProperty Name="SGR_CODIGOS_CIIU" Relationship="Self.SYS_C00175809" FromRole="SGR_UNIDADES_DESCARGA" ToRole="SGR_CODIGOS_CIIU" />
+          <NavigationProperty Name="SGR_SERVICIOS_UDS" Relationship="Self.SYS_C00175849" FromRole="SGR_UNIDADES_DESCARGA" ToRole="SGR_SERVICIOS_UDS" />
+        </EntityType>
+        <EntityType Name="SGR_USUARIOS">
+          <Key>
+            <PropertyRef Name="ID_USUARIO" />
+          </Key>
+          <Property Name="ID_USUARIO" Type="Decimal" Precision="38" Scale="0" Nullable="false" />
+          <Property Name="RUT" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+          <Property Name="NOMBRE" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="APELLIDO" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="EMAIL" Type="String" MaxLength="255" FixedLength="false" Unicode="false" />
+          <Property Name="ID_PERFIL" Type="Decimal" Precision="38" Scale="0" />
+          <NavigationProperty Name="SGR_PERFILES" Relationship="Self.SYS_C00176387" FromRole="SGR_USUARIOS" ToRole="SGR_PERFILES" />
+          <NavigationProperty Name="SGR_EMPRESAS" Relationship="Self.SGR_USUARIOS_EMPRESAS" FromRole="SGR_USUARIOS" ToRole="SGR_EMPRESAS" />
+        </EntityType>
+        <Association Name="SYS_C00175774">
+          <End Role="SGR_PLANTAS" Type="Self.SGR_PLANTAS" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PLANTAS">
+              <PropertyRef Name="ID_PLANTA" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_PLANTA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175777">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175787">
+          <End Role="SGR_COMUNAS" Type="Self.SGR_COMUNAS" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_COMUNAS">
+              <PropertyRef Name="ID_COMUNA" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_COMUNA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175790">
+          <End Role="SGR_TIPOS_CLIENTE" Type="Self.SGR_TIPOS_CLIENTE" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_TIPOS_CLIENTE">
+              <PropertyRef Name="ID_TIPO_CLIENTE" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_TIPO_CLIENTE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175793">
+          <End Role="SGR_ESTADOS_CLIENTE" Type="Self.SGR_ESTADOS_CLIENTE" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_ESTADOS_CLIENTE">
+              <PropertyRef Name="ID_ESTADO_CLIENTE" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_ESTADO_CLIENTE" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175796">
+          <End Role="SGR_TIPOS_CALC_EXC" Type="Self.SGR_TIPOS_CALC_EXC" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_TIPOS_CALC_EXC">
+              <PropertyRef Name="ID_TIPO_CALCULO" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_TIPO_CALCULO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175799">
+          <End Role="SGR_TIPOS_SIST_TRAT" Type="Self.SGR_TIPOS_SIST_TRAT" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_TIPOS_SIST_TRAT">
+              <PropertyRef Name="ID_TIPO_SIST_TRATAMI" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_TIPO_SIST_TRATAMI" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175802">
+          <End Role="SGR_FRECUENCIAS_MUES" Type="Self.SGR_FRECUENCIAS_MUES" Multiplicity="0..1" />
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_FRECUENCIAS_MUES">
+              <PropertyRef Name="ID_FREC_MUESTREO" />
+            </Principal>
+            <Dependent Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_FREC_MUESTREO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175805">
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="0..1" />
+          <End Role="SGR_UNIDADES_DESCARGA" Type="Self.SGR_UNIDADES_DESCARGA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_SGR" />
+            </Principal>
+            <Dependent Role="SGR_UNIDADES_DESCARGA">
+              <PropertyRef Name="ID_SGR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175850">
+          <End Role="SGR_CLIENTES" Type="Self.SGR_CLIENTES" Multiplicity="0..1" />
+          <End Role="SGR_SERVICIOS" Type="Self.SGR_SERVICIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CLIENTES">
+              <PropertyRef Name="ID_SGR" />
+            </Principal>
+            <Dependent Role="SGR_SERVICIOS">
+              <PropertyRef Name="ID_SGR" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175809">
+          <End Role="SGR_CODIGOS_CIIU" Type="Self.SGR_CODIGOS_CIIU" Multiplicity="0..1" />
+          <End Role="SGR_UNIDADES_DESCARGA" Type="Self.SGR_UNIDADES_DESCARGA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CODIGOS_CIIU">
+              <PropertyRef Name="COD_CIIU" />
+            </Principal>
+            <Dependent Role="SGR_UNIDADES_DESCARGA">
+              <PropertyRef Name="COD_CIIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176424">
+          <End Role="SGR_CODIGOS_CIIU" Type="Self.SGR_CODIGOS_CIIU" Multiplicity="1" />
+          <End Role="SGR_LABS_CIIU_TARIFA" Type="Self.SGR_LABS_CIIU_TARIFA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_CODIGOS_CIIU">
+              <PropertyRef Name="COD_CIIU" />
+            </Principal>
+            <Dependent Role="SGR_LABS_CIIU_TARIFA">
+              <PropertyRef Name="COD_CIIU" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175785">
+          <End Role="SGR_PROVINCIAS" Type="Self.SGR_PROVINCIAS" Multiplicity="0..1" />
+          <End Role="SGR_COMUNAS" Type="Self.SGR_COMUNAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PROVINCIAS">
+              <PropertyRef Name="ID_PROVINCIA" />
+            </Principal>
+            <Dependent Role="SGR_COMUNAS">
+              <PropertyRef Name="ID_PROVINCIA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175786">
+          <End Role="SGR_REGIONES" Type="Self.SGR_REGIONES" Multiplicity="0..1" />
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_REGIONES">
+              <PropertyRef Name="ID_REGION" />
+            </Principal>
+            <Dependent Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_REGION" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176409">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="1" />
+          <End Role="SGR_FISCALIZADORES" Type="Self.SGR_FISCALIZADORES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_FISCALIZADORES">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176442">
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="0..1" />
+          <End Role="SGR_PLANTAS" Type="Self.SGR_PLANTAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_EMPRESAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Principal>
+            <Dependent Role="SGR_PLANTAS">
+              <PropertyRef Name="ID_EMPRESA" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176423">
+          <End Role="SGR_LABORATORIOS" Type="Self.SGR_LABORATORIOS" Multiplicity="1" />
+          <End Role="SGR_LABS_CIIU_TARIFA" Type="Self.SGR_LABS_CIIU_TARIFA" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LABORATORIOS">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Principal>
+            <Dependent Role="SGR_LABS_CIIU_TARIFA">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176432">
+          <End Role="SGR_LABORATORIOS" Type="Self.SGR_LABORATORIOS" Multiplicity="1" />
+          <End Role="SGR_LABS_LOC_MUEST" Type="Self.SGR_LABS_LOC_MUEST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LABORATORIOS">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Principal>
+            <Dependent Role="SGR_LABS_LOC_MUEST">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176438">
+          <End Role="SGR_LABORATORIOS" Type="Self.SGR_LABORATORIOS" Multiplicity="0..1" />
+          <End Role="SGR_MUESTREADORES" Type="Self.SGR_MUESTREADORES" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LABORATORIOS">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Principal>
+            <Dependent Role="SGR_MUESTREADORES">
+              <PropertyRef Name="ID_LABORATORIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176433">
+          <End Role="SGR_LOCALIDADES" Type="Self.SGR_LOCALIDADES" Multiplicity="1" />
+          <End Role="SGR_LABS_LOC_MUEST" Type="Self.SGR_LABS_LOC_MUEST" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LOCALIDADES">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Principal>
+            <Dependent Role="SGR_LABS_LOC_MUEST">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176440">
+          <End Role="SGR_LOCALIDADES" Type="Self.SGR_LOCALIDADES" Multiplicity="0..1" />
+          <End Role="SGR_PLANTAS" Type="Self.SGR_PLANTAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_LOCALIDADES">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Principal>
+            <Dependent Role="SGR_PLANTAS">
+              <PropertyRef Name="ID_LOCALIDAD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00176387">
+          <End Role="SGR_PERFILES" Type="Self.SGR_PERFILES" Multiplicity="0..1" />
+          <End Role="SGR_USUARIOS" Type="Self.SGR_USUARIOS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_PERFILES">
+              <PropertyRef Name="ID_PERFIL" />
+            </Principal>
+            <Dependent Role="SGR_USUARIOS">
+              <PropertyRef Name="ID_PERFIL" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175782">
+          <End Role="SGR_REGIONES" Type="Self.SGR_REGIONES" Multiplicity="0..1" />
+          <End Role="SGR_PROVINCIAS" Type="Self.SGR_PROVINCIAS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_REGIONES">
+              <PropertyRef Name="ID_REGION" />
+            </Principal>
+            <Dependent Role="SGR_PROVINCIAS">
+              <PropertyRef Name="ID_REGION" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175848">
+          <End Role="SGR_SERVICIOS" Type="Self.SGR_SERVICIOS" Multiplicity="1" />
+          <End Role="SGR_SERVICIOS_UDS" Type="Self.SGR_SERVICIOS_UDS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_SERVICIOS">
+              <PropertyRef Name="ID_SERVICIO" />
+            </Principal>
+            <Dependent Role="SGR_SERVICIOS_UDS">
+              <PropertyRef Name="ID_SERVICIO" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SYS_C00175849">
+          <End Role="SGR_UNIDADES_DESCARGA" Type="Self.SGR_UNIDADES_DESCARGA" Multiplicity="1" />
+          <End Role="SGR_SERVICIOS_UDS" Type="Self.SGR_SERVICIOS_UDS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="SGR_UNIDADES_DESCARGA">
+              <PropertyRef Name="ID_UD" />
+            </Principal>
+            <Dependent Role="SGR_SERVICIOS_UDS">
+              <PropertyRef Name="ID_UD" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="SGR_PERFILES_MODULOS">
+          <End Role="SGR_PERFILES" Type="Self.SGR_PERFILES" Multiplicity="*" />
+          <End Role="SGR_MODULOS" Type="Self.SGR_MODULOS" Multiplicity="*" />
+        </Association>
+        <Association Name="SGR_USUARIOS_EMPRESAS">
+          <End Role="SGR_USUARIOS" Type="Self.SGR_USUARIOS" Multiplicity="*" />
+          <End Role="SGR_EMPRESAS" Type="Self.SGR_EMPRESAS" Multiplicity="*" />
+        </Association>
+        <EntityContainer Name="BD" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BIN_R1DzHbCu6sngUGQKCMVXuQ___0" EntityType="Self.BIN_R1DzHbCu6sngUGQKCMVXuQ___0" />
+          <EntitySet Name="SGR_CLIENTES" EntityType="Self.SGR_CLIENTES" />
+          <EntitySet Name="SGR_CODIGOS_CIIU" EntityType="Self.SGR_CODIGOS_CIIU" />
+          <EntitySet Name="SGR_COMUNAS" EntityType="Self.SGR_COMUNAS" />
+          <EntitySet Name="SGR_EMPRESAS" EntityType="Self.SGR_EMPRESAS" />
+          <EntitySet Name="SGR_ESTADOS_CLIENTE" EntityType="Self.SGR_ESTADOS_CLIENTE" />
+          <EntitySet Name="SGR_FISCALIZADORES" EntityType="Self.SGR_FISCALIZADORES" />
+          <EntitySet Name="SGR_FRECUENCIAS_MUES" EntityType="Self.SGR_FRECUENCIAS_MUES" />
+          <EntitySet Name="SGR_LABORATORIOS" EntityType="Self.SGR_LABORATORIOS" />
+          <EntitySet Name="SGR_LABS_CIIU_TARIFA" EntityType="Self.SGR_LABS_CIIU_TARIFA" />
+          <EntitySet Name="SGR_LABS_LOC_MUEST" EntityType="Self.SGR_LABS_LOC_MUEST" />
+          <EntitySet Name="SGR_LOCALIDADES" EntityType="Self.SGR_LOCALIDADES" />
+          <EntitySet Name="SGR_MODULOS" EntityType="Self.SGR_MODULOS" />
+          <EntitySet Name="SGR_MUESTREADORES" EntityType="Self.SGR_MUESTREADORES" />
+          <EntitySet Name="SGR_PARAMETROS_RILES" EntityType="Self.SGR_PARAMETROS_RILES" />
+          <EntitySet Name="SGR_PERFILES" EntityType="Self.SGR_PERFILES" />
+          <EntitySet Name="SGR_PLANTAS" EntityType="Self.SGR_PLANTAS" />
+          <EntitySet Name="SGR_PROVINCIAS" EntityType="Self.SGR_PROVINCIAS" />
+          <EntitySet Name="SGR_REGIONES" EntityType="Self.SGR_REGIONES" />
+          <EntitySet Name="SGR_SERVICIOS" EntityType="Self.SGR_SERVICIOS" />
+          <EntitySet Name="SGR_SERVICIOS_UDS" EntityType="Self.SGR_SERVICIOS_UDS" />
+          <EntitySet Name="SGR_TIPOS_CALC_EXC" EntityType="Self.SGR_TIPOS_CALC_EXC" />
+          <EntitySet Name="SGR_TIPOS_CLIENTE" EntityType="Self.SGR_TIPOS_CLIENTE" />
+          <EntitySet Name="SGR_TIPOS_CONTROL" EntityType="Self.SGR_TIPOS_CONTROL" />
+          <EntitySet Name="SGR_TIPOS_MUESTRA" EntityType="Self.SGR_TIPOS_MUESTRA" />
+          <EntitySet Name="SGR_TIPOS_SIST_TRAT" EntityType="Self.SGR_TIPOS_SIST_TRAT" />
+          <EntitySet Name="SGR_UNIDADES_DESCARGA" EntityType="Self.SGR_UNIDADES_DESCARGA" />
+          <EntitySet Name="SGR_USUARIOS" EntityType="Self.SGR_USUARIOS" />
+          <AssociationSet Name="SYS_C00175774" Association="Self.SYS_C00175774">
+            <End Role="SGR_PLANTAS" EntitySet="SGR_PLANTAS" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175777" Association="Self.SYS_C00175777">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175787" Association="Self.SYS_C00175787">
+            <End Role="SGR_COMUNAS" EntitySet="SGR_COMUNAS" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175790" Association="Self.SYS_C00175790">
+            <End Role="SGR_TIPOS_CLIENTE" EntitySet="SGR_TIPOS_CLIENTE" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175793" Association="Self.SYS_C00175793">
+            <End Role="SGR_ESTADOS_CLIENTE" EntitySet="SGR_ESTADOS_CLIENTE" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175796" Association="Self.SYS_C00175796">
+            <End Role="SGR_TIPOS_CALC_EXC" EntitySet="SGR_TIPOS_CALC_EXC" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175799" Association="Self.SYS_C00175799">
+            <End Role="SGR_TIPOS_SIST_TRAT" EntitySet="SGR_TIPOS_SIST_TRAT" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175802" Association="Self.SYS_C00175802">
+            <End Role="SGR_FRECUENCIAS_MUES" EntitySet="SGR_FRECUENCIAS_MUES" />
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175805" Association="Self.SYS_C00175805">
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+            <End Role="SGR_UNIDADES_DESCARGA" EntitySet="SGR_UNIDADES_DESCARGA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175850" Association="Self.SYS_C00175850">
+            <End Role="SGR_CLIENTES" EntitySet="SGR_CLIENTES" />
+            <End Role="SGR_SERVICIOS" EntitySet="SGR_SERVICIOS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175809" Association="Self.SYS_C00175809">
+            <End Role="SGR_CODIGOS_CIIU" EntitySet="SGR_CODIGOS_CIIU" />
+            <End Role="SGR_UNIDADES_DESCARGA" EntitySet="SGR_UNIDADES_DESCARGA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176424" Association="Self.SYS_C00176424">
+            <End Role="SGR_CODIGOS_CIIU" EntitySet="SGR_CODIGOS_CIIU" />
+            <End Role="SGR_LABS_CIIU_TARIFA" EntitySet="SGR_LABS_CIIU_TARIFA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175785" Association="Self.SYS_C00175785">
+            <End Role="SGR_PROVINCIAS" EntitySet="SGR_PROVINCIAS" />
+            <End Role="SGR_COMUNAS" EntitySet="SGR_COMUNAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175786" Association="Self.SYS_C00175786">
+            <End Role="SGR_REGIONES" EntitySet="SGR_REGIONES" />
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176409" Association="Self.SYS_C00176409">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_FISCALIZADORES" EntitySet="SGR_FISCALIZADORES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176442" Association="Self.SYS_C00176442">
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+            <End Role="SGR_PLANTAS" EntitySet="SGR_PLANTAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176423" Association="Self.SYS_C00176423">
+            <End Role="SGR_LABORATORIOS" EntitySet="SGR_LABORATORIOS" />
+            <End Role="SGR_LABS_CIIU_TARIFA" EntitySet="SGR_LABS_CIIU_TARIFA" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176432" Association="Self.SYS_C00176432">
+            <End Role="SGR_LABORATORIOS" EntitySet="SGR_LABORATORIOS" />
+            <End Role="SGR_LABS_LOC_MUEST" EntitySet="SGR_LABS_LOC_MUEST" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176438" Association="Self.SYS_C00176438">
+            <End Role="SGR_LABORATORIOS" EntitySet="SGR_LABORATORIOS" />
+            <End Role="SGR_MUESTREADORES" EntitySet="SGR_MUESTREADORES" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176433" Association="Self.SYS_C00176433">
+            <End Role="SGR_LOCALIDADES" EntitySet="SGR_LOCALIDADES" />
+            <End Role="SGR_LABS_LOC_MUEST" EntitySet="SGR_LABS_LOC_MUEST" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176440" Association="Self.SYS_C00176440">
+            <End Role="SGR_LOCALIDADES" EntitySet="SGR_LOCALIDADES" />
+            <End Role="SGR_PLANTAS" EntitySet="SGR_PLANTAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00176387" Association="Self.SYS_C00176387">
+            <End Role="SGR_PERFILES" EntitySet="SGR_PERFILES" />
+            <End Role="SGR_USUARIOS" EntitySet="SGR_USUARIOS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175782" Association="Self.SYS_C00175782">
+            <End Role="SGR_REGIONES" EntitySet="SGR_REGIONES" />
+            <End Role="SGR_PROVINCIAS" EntitySet="SGR_PROVINCIAS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175848" Association="Self.SYS_C00175848">
+            <End Role="SGR_SERVICIOS" EntitySet="SGR_SERVICIOS" />
+            <End Role="SGR_SERVICIOS_UDS" EntitySet="SGR_SERVICIOS_UDS" />
+          </AssociationSet>
+          <AssociationSet Name="SYS_C00175849" Association="Self.SYS_C00175849">
+            <End Role="SGR_UNIDADES_DESCARGA" EntitySet="SGR_UNIDADES_DESCARGA" />
+            <End Role="SGR_SERVICIOS_UDS" EntitySet="SGR_SERVICIOS_UDS" />
+          </AssociationSet>
+          <AssociationSet Name="SGR_PERFILES_MODULOS" Association="Self.SGR_PERFILES_MODULOS">
+            <End Role="SGR_PERFILES" EntitySet="SGR_PERFILES" />
+            <End Role="SGR_MODULOS" EntitySet="SGR_MODULOS" />
+          </AssociationSet>
+          <AssociationSet Name="SGR_USUARIOS_EMPRESAS" Association="Self.SGR_USUARIOS_EMPRESAS">
+            <End Role="SGR_USUARIOS" EntitySet="SGR_USUARIOS" />
+            <End Role="SGR_EMPRESAS" EntitySet="SGR_EMPRESAS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="ModelStoreContainer" CdmEntityContainer="BD">
+          <EntitySetMapping Name="BIN_R1DzHbCu6sngUGQKCMVXuQ___0">
+            <EntityTypeMapping TypeName="Model.BIN_R1DzHbCu6sngUGQKCMVXuQ___0">
+              <MappingFragment StoreEntitySet="BIN$R1DzHbCu6sngUGQKCMVXuQ==$0">
+                <ScalarProperty Name="ID_FRECUENCIA" ColumnName="ID_FRECUENCIA" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_CLIENTES">
+            <EntityTypeMapping TypeName="Model.SGR_CLIENTES">
+              <MappingFragment StoreEntitySet="SGR_CLIENTES">
+                <ScalarProperty Name="ID_SGR" ColumnName="ID_SGR" />
+                <ScalarProperty Name="ID_RUBRO" ColumnName="ID_RUBRO" />
+                <ScalarProperty Name="ID_EMPRESA" ColumnName="ID_EMPRESA" />
+                <ScalarProperty Name="RUT_CLIENTE" ColumnName="RUT_CLIENTE" />
+                <ScalarProperty Name="NOMBRE_CLIENTE" ColumnName="NOMBRE_CLIENTE" />
+                <ScalarProperty Name="REP_LEGAL" ColumnName="REP_LEGAL" />
+                <ScalarProperty Name="RUT_REP_LEGAL" ColumnName="RUT_REP_LEGAL" />
+                <ScalarProperty Name="DV_REP_LEGAL" ColumnName="DV_REP_LEGAL" />
+                <ScalarProperty Name="ID_SISS" ColumnName="ID_SISS" />
+                <ScalarProperty Name="ID_PLANTA" ColumnName="ID_PLANTA" />
+                <ScalarProperty Name="NOMBRE_FANTASIA" ColumnName="NOMBRE_FANTASIA" />
+                <ScalarProperty Name="ID_TIPO_CLIENTE" ColumnName="ID_TIPO_CLIENTE" />
+                <ScalarProperty Name="ID_ESTADO_CLIENTE" ColumnName="ID_ESTADO_CLIENTE" />
+                <ScalarProperty Name="ID_COMUNA" ColumnName="ID_COMUNA" />
+                <ScalarProperty Name="ID_CONTRATO" ColumnName="ID_CONTRATO" />
+                <ScalarProperty Name="ID_TIPO_CALCULO" ColumnName="ID_TIPO_CALCULO" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="SECTOR" ColumnName="SECTOR" />
+                <ScalarProperty Name="FONO" ColumnName="FONO" />
+                <ScalarProperty Name="FAX" ColumnName="FAX" />
+                <ScalarProperty Name="CASILLA_POSTAL" ColumnName="CASILLA_POSTAL" />
+                <ScalarProperty Name="CODIGO_POSTAL" ColumnName="CODIGO_POSTAL" />
+                <ScalarProperty Name="CONTACTO1" ColumnName="CONTACTO1" />
+                <ScalarProperty Name="RUT_CONTACTO1" ColumnName="RUT_CONTACTO1" />
+                <ScalarProperty Name="EMAIL_CONTACTO1" ColumnName="EMAIL_CONTACTO1" />
+                <ScalarProperty Name="FONO_CONTACTO1" ColumnName="FONO_CONTACTO1" />
+                <ScalarProperty Name="CONTACTO2" ColumnName="CONTACTO2" />
+                <ScalarProperty Name="RUT_CONTACTO2" ColumnName="RUT_CONTACTO2" />
+                <ScalarProperty Name="EMAIL_CONTACTO2" ColumnName="EMAIL_CONTACTO2" />
+                <ScalarProperty Name="FONO_CONTACTO2" ColumnName="FONO_CONTACTO2" />
+                <ScalarProperty Name="CONTACTO_RILES" ColumnName="CONTACTO_RILES" />
+                <ScalarProperty Name="RUT_CONTACTO_RILES" ColumnName="RUT_CONTACTO_RILES" />
+                <ScalarProperty Name="EMAIL_CONTACTO_RILES" ColumnName="EMAIL_CONTACTO_RILES" />
+                <ScalarProperty Name="FONO_CONTACTO_RILES" ColumnName="FONO_CONTACTO_RILES" />
+                <ScalarProperty Name="IDENT_CONCES_DGA_RILES" ColumnName="IDENT_CONCES_DGA_RILES" />
+                <ScalarProperty Name="NRO_RCA" ColumnName="NRO_RCA" />
+                <ScalarProperty Name="ANO_RCA" ColumnName="ANO_RCA" />
+                <ScalarProperty Name="CONV_DGA_DSMOP" ColumnName="CONV_DGA_DSMOP" />
+                <ScalarProperty Name="ID_TIPO_SIST_TRATAMI" ColumnName="ID_TIPO_SIST_TRATAMI" />
+                <ScalarProperty Name="FECHA_ENT_OPER_RILES" ColumnName="FECHA_ENT_OPER_RILES" />
+                <ScalarProperty Name="VOLUMEN_DESCARGA" ColumnName="VOLUMEN_DESCARGA" />
+                <ScalarProperty Name="NRO_DESCARGAS" ColumnName="NRO_DESCARGAS" />
+                <ScalarProperty Name="RPM" ColumnName="RPM" />
+                <ScalarProperty Name="NRO_RPM" ColumnName="NRO_RPM" />
+                <ScalarProperty Name="ID_FREC_MUESTREO" ColumnName="ID_FREC_MUESTREO" />
+                <ScalarProperty Name="LINK_RPM" ColumnName="LINK_RPM" />
+                <ScalarProperty Name="FECHA_T4_RPM" ColumnName="FECHA_T4_RPM" />
+                <ScalarProperty Name="ID_CON_DIRECTO" ColumnName="ID_CON_DIRECTO" />
+                <ScalarProperty Name="ID_CON_CONVENIO" ColumnName="ID_CON_CONVENIO" />
+                <ScalarProperty Name="ID_CON_OPERATIVO" ColumnName="ID_CON_OPERATIVO" />
+                <ScalarProperty Name="ID_EXCEDENTES" ColumnName="ID_EXCEDENTES" />
+                <ScalarProperty Name="ID_DGA_RILES" ColumnName="ID_DGA_RILES" />
+                <ScalarProperty Name="ID_DGA_AS" ColumnName="ID_DGA_AS" />
+                <ScalarProperty Name="ID_DGA_RESIDUOS" ColumnName="ID_DGA_RESIDUOS" />
+                <ScalarProperty Name="CAMPO_F_1" ColumnName="CAMPO_F_1" />
+                <ScalarProperty Name="CAMPO_F_2" ColumnName="CAMPO_F_2" />
+                <ScalarProperty Name="CAMPO_F_3" ColumnName="CAMPO_F_3" />
+                <ScalarProperty Name="CAMPO_F_4" ColumnName="CAMPO_F_4" />
+                <ScalarProperty Name="CAMPO_F_5" ColumnName="CAMPO_F_5" />
+                <ScalarProperty Name="GIRO" ColumnName="GIRO" />
+                <ScalarProperty Name="RAZON_SOCIAL" ColumnName="RAZON_SOCIAL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_CODIGOS_CIIU">
+            <EntityTypeMapping TypeName="Model.SGR_CODIGOS_CIIU">
+              <MappingFragment StoreEntitySet="SGR_CODIGOS_CIIU">
+                <ScalarProperty Name="COD_CIIU" ColumnName="COD_CIIU" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+                <ScalarProperty Name="PARAMETROS" ColumnName="PARAMETROS" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_COMUNAS">
+            <EntityTypeMapping TypeName="Model.SGR_COMUNAS">
+              <MappingFragment StoreEntitySet="SGR_COMUNAS">
+                <ScalarProperty Name="ID_COMUNA" ColumnName="ID_COMUNA" />
+                <ScalarProperty Name="ID_PROVINCIA" ColumnName="ID_PROVINCIA" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_EMPRESAS">
+            <EntityTypeMapping TypeName="Model.SGR_EMPRESAS">
+              <MappingFragment StoreEntitySet="SGR_EMPRESAS">
+                <ScalarProperty Name="ID_EMPRESA" ColumnName="ID_EMPRESA" />
+                <ScalarProperty Name="ID_REGION" ColumnName="ID_REGION" />
+                <ScalarProperty Name="NOMBRE_EMPRESA" ColumnName="NOMBRE_EMPRESA" />
+                <ScalarProperty Name="RUT_EMPRESA" ColumnName="RUT_EMPRESA" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_ESTADOS_CLIENTE">
+            <EntityTypeMapping TypeName="Model.SGR_ESTADOS_CLIENTE">
+              <MappingFragment StoreEntitySet="SGR_ESTADOS_CLIENTE">
+                <ScalarProperty Name="ID_ESTADO_CLIENTE" ColumnName="ID_ESTADO_CLIENTE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_FISCALIZADORES">
+            <EntityTypeMapping TypeName="Model.SGR_FISCALIZADORES">
+              <MappingFragment StoreEntitySet="SGR_FISCALIZADORES">
+                <ScalarProperty Name="ID_FISCALIZADOR" ColumnName="ID_FISCALIZADOR" />
+                <ScalarProperty Name="RUT" ColumnName="RUT" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="ID_EMPRESA" ColumnName="ID_EMPRESA" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_FRECUENCIAS_MUES">
+            <EntityTypeMapping TypeName="Model.SGR_FRECUENCIAS_MUES">
+              <MappingFragment StoreEntitySet="SGR_FRECUENCIAS_MUES">
+                <ScalarProperty Name="ID_FREC_MUESTREO" ColumnName="ID_FREC_MUESTREO" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_LABORATORIOS">
+            <EntityTypeMapping TypeName="Model.SGR_LABORATORIOS">
+              <MappingFragment StoreEntitySet="SGR_LABORATORIOS">
+                <ScalarProperty Name="ID_LABORATORIO" ColumnName="ID_LABORATORIO" />
+                <ScalarProperty Name="RUT" ColumnName="RUT" />
+                <ScalarProperty Name="RAZON_SOCIAL" ColumnName="RAZON_SOCIAL" />
+                <ScalarProperty Name="GIRO" ColumnName="GIRO" />
+                <ScalarProperty Name="ID_LOCALIDAD" ColumnName="ID_LOCALIDAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_LABS_CIIU_TARIFA">
+            <EntityTypeMapping TypeName="Model.SGR_LABS_CIIU_TARIFA">
+              <MappingFragment StoreEntitySet="SGR_LABS_CIIU_TARIFA">
+                <ScalarProperty Name="ID_LABORATORIO" ColumnName="ID_LABORATORIO" />
+                <ScalarProperty Name="COD_CIIU" ColumnName="COD_CIIU" />
+                <ScalarProperty Name="COSTO" ColumnName="COSTO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_LABS_LOC_MUEST">
+            <EntityTypeMapping TypeName="Model.SGR_LABS_LOC_MUEST">
+              <MappingFragment StoreEntitySet="SGR_LABS_LOC_MUEST">
+                <ScalarProperty Name="ID_LABORATORIO" ColumnName="ID_LABORATORIO" />
+                <ScalarProperty Name="ID_LOCALIDAD" ColumnName="ID_LOCALIDAD" />
+                <ScalarProperty Name="ID_TIPO_MUESTRA" ColumnName="ID_TIPO_MUESTRA" />
+                <ScalarProperty Name="COSTO" ColumnName="COSTO" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_LOCALIDADES">
+            <EntityTypeMapping TypeName="Model.SGR_LOCALIDADES">
+              <MappingFragment StoreEntitySet="SGR_LOCALIDADES">
+                <ScalarProperty Name="ID_LOCALIDAD" ColumnName="ID_LOCALIDAD" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="ID_COMUNA" ColumnName="ID_COMUNA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_MODULOS">
+            <EntityTypeMapping TypeName="Model.SGR_MODULOS">
+              <MappingFragment StoreEntitySet="SGR_MODULOS">
+                <ScalarProperty Name="ID_MODULO" ColumnName="ID_MODULO" />
+                <ScalarProperty Name="TITULO" ColumnName="TITULO" />
+                <ScalarProperty Name="FUNCIONALIDAD" ColumnName="FUNCIONALIDAD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_MUESTREADORES">
+            <EntityTypeMapping TypeName="Model.SGR_MUESTREADORES">
+              <MappingFragment StoreEntitySet="SGR_MUESTREADORES">
+                <ScalarProperty Name="ID_MUESTREADOR" ColumnName="ID_MUESTREADOR" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="APE_PATERNO" ColumnName="APE_PATERNO" />
+                <ScalarProperty Name="APE_MATERNO" ColumnName="APE_MATERNO" />
+                <ScalarProperty Name="RUT" ColumnName="RUT" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="ID_LABORATORIO" ColumnName="ID_LABORATORIO" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_PARAMETROS_RILES">
+            <EntityTypeMapping TypeName="Model.SGR_PARAMETROS_RILES">
+              <MappingFragment StoreEntitySet="SGR_PARAMETROS_RILES">
+                <ScalarProperty Name="ID_PARAMETRO_RILES" ColumnName="ID_PARAMETRO_RILES" />
+                <ScalarProperty Name="CODIGO_LIMS" ColumnName="CODIGO_LIMS" />
+                <ScalarProperty Name="SIGLA_SGR" ColumnName="SIGLA_SGR" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+                <ScalarProperty Name="V_MINIMO" ColumnName="V_MINIMO" />
+                <ScalarProperty Name="V_MAXIMO" ColumnName="V_MAXIMO" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+                <ScalarProperty Name="UNIDAD_MEDIDA" ColumnName="UNIDAD_MEDIDA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_PERFILES">
+            <EntityTypeMapping TypeName="Model.SGR_PERFILES">
+              <MappingFragment StoreEntitySet="SGR_PERFILES">
+                <ScalarProperty Name="ID_PERFIL" ColumnName="ID_PERFIL" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_PLANTAS">
+            <EntityTypeMapping TypeName="Model.SGR_PLANTAS">
+              <MappingFragment StoreEntitySet="SGR_PLANTAS">
+                <ScalarProperty Name="ID_PLANTA" ColumnName="ID_PLANTA" />
+                <ScalarProperty Name="ID_EMPRESA" ColumnName="ID_EMPRESA" />
+                <ScalarProperty Name="COD_SISS" ColumnName="COD_SISS" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+                <ScalarProperty Name="ID_LOCALIDAD" ColumnName="ID_LOCALIDAD" />
+                <ScalarProperty Name="FECHA_OPERACION" ColumnName="FECHA_OPERACION" />
+                <ScalarProperty Name="ACTIVO" ColumnName="ACTIVO" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_PROVINCIAS">
+            <EntityTypeMapping TypeName="Model.SGR_PROVINCIAS">
+              <MappingFragment StoreEntitySet="SGR_PROVINCIAS">
+                <ScalarProperty Name="ID_PROVINCIA" ColumnName="ID_PROVINCIA" />
+                <ScalarProperty Name="ID_REGION" ColumnName="ID_REGION" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_REGIONES">
+            <EntityTypeMapping TypeName="Model.SGR_REGIONES">
+              <MappingFragment StoreEntitySet="SGR_REGIONES">
+                <ScalarProperty Name="ID_REGION" ColumnName="ID_REGION" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_SERVICIOS">
+            <EntityTypeMapping TypeName="Model.SGR_SERVICIOS">
+              <MappingFragment StoreEntitySet="SGR_SERVICIOS">
+                <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+                <ScalarProperty Name="RUT_EMPRESA" ColumnName="RUT_EMPRESA" />
+                <ScalarProperty Name="TIPO_SERVICIO" ColumnName="TIPO_SERVICIO" />
+                <ScalarProperty Name="ID_SGR" ColumnName="ID_SGR" />
+                <ScalarProperty Name="DIRECCION" ColumnName="DIRECCION" />
+                <ScalarProperty Name="VOLUMEN_DM" ColumnName="VOLUMEN_DM" />
+                <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+                <ScalarProperty Name="LOCALIDAD" ColumnName="LOCALIDAD" />
+                <ScalarProperty Name="TIPO_FACTURACION" ColumnName="TIPO_FACTURACION" />
+                <ScalarProperty Name="CONVENIO" ColumnName="CONVENIO" />
+                <ScalarProperty Name="FECHA_FACTURACION" ColumnName="FECHA_FACTURACION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_SERVICIOS_UDS">
+            <EntityTypeMapping TypeName="Model.SGR_SERVICIOS_UDS">
+              <MappingFragment StoreEntitySet="SGR_SERVICIOS_UDS">
+                <ScalarProperty Name="ID_SERVICIO" ColumnName="ID_SERVICIO" />
+                <ScalarProperty Name="ID_UD" ColumnName="ID_UD" />
+                <ScalarProperty Name="PORCENTAJE" ColumnName="PORCENTAJE" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_TIPOS_CALC_EXC">
+            <EntityTypeMapping TypeName="Model.SGR_TIPOS_CALC_EXC">
+              <MappingFragment StoreEntitySet="SGR_TIPOS_CALC_EXC">
+                <ScalarProperty Name="ID_TIPO_CALCULO" ColumnName="ID_TIPO_CALCULO" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+                <ScalarProperty Name="GLOSA" ColumnName="GLOSA" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_TIPOS_CLIENTE">
+            <EntityTypeMapping TypeName="Model.SGR_TIPOS_CLIENTE">
+              <MappingFragment StoreEntitySet="SGR_TIPOS_CLIENTE">
+                <ScalarProperty Name="ID_TIPO_CLIENTE" ColumnName="ID_TIPO_CLIENTE" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_TIPOS_CONTROL">
+            <EntityTypeMapping TypeName="Model.SGR_TIPOS_CONTROL">
+              <MappingFragment StoreEntitySet="SGR_TIPOS_CONTROL">
+                <ScalarProperty Name="ID_TIPO_CONTROL" ColumnName="ID_TIPO_CONTROL" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_TIPOS_MUESTRA">
+            <EntityTypeMapping TypeName="Model.SGR_TIPOS_MUESTRA">
+              <MappingFragment StoreEntitySet="SGR_TIPOS_MUESTRA">
+                <ScalarProperty Name="ID_TIPO_MUESTRA" ColumnName="ID_TIPO_MUESTRA" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_TIPOS_SIST_TRAT">
+            <EntityTypeMapping TypeName="Model.SGR_TIPOS_SIST_TRAT">
+              <MappingFragment StoreEntitySet="SGR_TIPOS_SIST_TRAT">
+                <ScalarProperty Name="ID_TIPO_SIST_TRATAMI" ColumnName="ID_TIPO_SIST_TRATAMI" />
+                <ScalarProperty Name="DESCRIPCION" ColumnName="DESCRIPCION" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_UNIDADES_DESCARGA">
+            <EntityTypeMapping TypeName="Model.SGR_UNIDADES_DESCARGA">
+              <MappingFragment StoreEntitySet="SGR_UNIDADES_DESCARGA">
+                <ScalarProperty Name="ID_UD" ColumnName="ID_UD" />
+                <ScalarProperty Name="COD_SGC_UD" ColumnName="COD_SGC_UD" />
+                <ScalarProperty Name="ID_SGR" ColumnName="ID_SGR" />
+                <ScalarProperty Name="COD_COLECTOR" ColumnName="COD_COLECTOR" />
+                <ScalarProperty Name="COD_CIIU" ColumnName="COD_CIIU" />
+                <ScalarProperty Name="UTM_NORTE_UD" ColumnName="UTM_NORTE_UD" />
+                <ScalarProperty Name="UTM_ESTE_UD" ColumnName="UTM_ESTE_UD" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SGR_USUARIOS">
+            <EntityTypeMapping TypeName="Model.SGR_USUARIOS">
+              <MappingFragment StoreEntitySet="SGR_USUARIOS">
+                <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+                <ScalarProperty Name="RUT" ColumnName="RUT" />
+                <ScalarProperty Name="NOMBRE" ColumnName="NOMBRE" />
+                <ScalarProperty Name="APELLIDO" ColumnName="APELLIDO" />
+                <ScalarProperty Name="EMAIL" ColumnName="EMAIL" />
+                <ScalarProperty Name="ID_PERFIL" ColumnName="ID_PERFIL" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <AssociationSetMapping Name="SGR_PERFILES_MODULOS" TypeName="Model.SGR_PERFILES_MODULOS" StoreEntitySet="SGR_PERFILES_MODULOS">
+            <EndProperty Name="SGR_PERFILES">
+              <ScalarProperty Name="ID_PERFIL" ColumnName="ID_PERFIL" />
+            </EndProperty>
+            <EndProperty Name="SGR_MODULOS">
+              <ScalarProperty Name="ID_MODULO" ColumnName="ID_MODULO" />
+            </EndProperty>
+          </AssociationSetMapping>
+          <AssociationSetMapping Name="SGR_USUARIOS_EMPRESAS" TypeName="Model.SGR_USUARIOS_EMPRESAS" StoreEntitySet="SGR_USUARIOS_EMPRESAS">
+            <EndProperty Name="SGR_USUARIOS">
+              <ScalarProperty Name="ID_USUARIO" ColumnName="ID_USUARIO" />
+            </EndProperty>
+            <EndProperty Name="SGR_EMPRESAS">
+              <ScalarProperty Name="ID_EMPRESA" ColumnName="ID_EMPRESA" />
+            </EndProperty>
+          </AssociationSetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

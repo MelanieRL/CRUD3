@@ -1,0 +1,66 @@
+﻿@model IEnumerable<CRUD3.SGR_COMUNAS>
+
+@{
+    ViewBag.Title = "Index";
+    //Layout = null;
+}
+<link rel="stylesheet" href="~/Content/StyleSheet1.css">
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display:none;">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            @*<div class="modal-header">
+
+                </div>*@
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <div id="modal-content">
+                    Cargando...
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h2>Index</h2>
+
+<p>
+  @*  @Html.ActionLink("Create New", "Create")*@
+
+    <a id="btnNuevo" data-toggle="modal" href="#myModal" class="pull-right btn-elem"><i style="color:#1464F6; padding-left:5px;" class="fa fa-plus-circle fa-3" aria-hidden="true"></i>Agregar</a>
+
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DESCRIPCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_PROVINCIAS.DESCRIPCION)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DESCRIPCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_PROVINCIAS.DESCRIPCION)
+        </td>
+        <td>
+            @*@Html.ActionLink("Edit", "Edit", new { id=item.ID_COMUNA }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_COMUNA }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_COMUNA })*@
+            <a href="#myModal" class="btnEditar btn-link btn-info" data-toggle="modal" data-id="@item.ID_COMUNA"><i style="color:#1464F6;" class="fa fa-pencil fa-2" aria-hidden="true"></i></a>
+
+        </td>
+    </tr>
+}
+
+</table>
+
+@section scripts{
+    <script src="~/Scripts/Modales/comunas.js"></script>
+}
