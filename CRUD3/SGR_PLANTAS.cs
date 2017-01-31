@@ -11,6 +11,9 @@ namespace CRUD3
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
+    using System.Linq;
+    using System.Web;
     
     public partial class SGR_PLANTAS
     {
@@ -21,13 +24,20 @@ namespace CRUD3
         }
     
         public decimal ID_PLANTA { get; set; }
+        [Required]
         public Nullable<decimal> ID_EMPRESA { get; set; }
+        [Required]
         public string COD_SISS { get; set; }
+        [Required]
         public string DESCRIPCION { get; set; }
+        [Required]
         public Nullable<decimal> ID_LOCALIDAD { get; set; }
+        [Required]
         public Nullable<System.DateTime> FECHA_OPERACION { get; set; }
+        [Required]
         public decimal ACTIVO { get; set; }
-    
+        [Required]
+
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<SGR_CLIENTES> SGR_CLIENTES { get; set; }
         public virtual SGR_EMPRESAS SGR_EMPRESAS { get; set; }

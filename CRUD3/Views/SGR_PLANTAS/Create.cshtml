@@ -2,9 +2,9 @@
 
 @{
     //ViewBag.Title = "Create";
-    Layout = null;
-}
-
+    Layout = "~/Views/Shared/_Layout-dialog.cshtml"; }
+@*}
+<a href="~/Views/Shared/_Layout-dialog.cshtml">~/Views/Shared/_Layout-dialog.cshtml</a>*@
 <h2>Crear nueva planta<h2>
 
 
@@ -71,7 +71,7 @@
                 @Html.ValidationMessageFor(model => model.ACTIVO, "", new { @class = "text-danger" })
             </div>
         </div>
-
+         
         <div class="form-group">
             <div class="col-md-offset-2 col-md-10">
                 <input type="submit" value="Crear" class="btn btn-default" />

@@ -1,37 +1,38 @@
-﻿.btn-elem{
+﻿.btn-elem {
     border: 1px solid #000000;
     background-color: #d4e3fc;
     border-color: #929292;
-    border-radius:5px;
+    border-radius: 5px;
     -webkit-box-shadow: 0px 3px 5px #999;
     padding-top: 0px;
     padding-bottom: 0px;
     color: black;
-    font-family:Helvetica;
-    font-size:16px;
-    padding-left:15px;
+    font-family: Helvetica;
+    font-size: 16px;
+    padding-left: 15px;
     padding-right: 25px;
     margin-bottom: 20px;
 }
 
-.btn-elem:hover{
-    text-decoration: none;
-    color: black;
-}
+    .btn-elem:hover {
+        text-decoration: none;
+        color: black;
+    }
 
 .table {
-text-align: left;
-float:right;
-width: 100%;
-font:14px Helvetica;
-border: 2px solid #A8C6FA; 
+    text-align: left;
+    float: right;
+    width: 100%;
+    font: 14px Helvetica;
+    border: 2px solid #A8C6FA;
+}
 
-}
-.table th{
-     padding: 10px 20px;
-     background: #D4E3FC;
-     border: 2px solid #A8C6FA; 
-}
-.table td{
-            border: 2px solid #A8C6FA;  
-}
+    .table th {
+        padding: 10px 20px;
+        background: #D4E3FC;
+        border: 2px solid #A8C6FA;
+    }
+
+    .table td {
+        border: 2px solid #A8C6FA;
+    }
