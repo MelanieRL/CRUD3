@@ -11,7 +11,7 @@ using CRUD3;
 namespace CRUD3.Controllers
 {
     public class SGR_PLANTASController : Controller
-    {
+    {asdasdasd
         private BD db = new BD();
 
         // GET: SGR_PLANTAS
