@@ -1,13 +1,14 @@
-﻿@model CRUD3.SGR_COMUNAS
+﻿@model CRUD3.SGR_REGIONES
 
 @{
     //ViewBag.Title = "Create";
     Layout = "~/Views/Shared/_Layout-dialog.cshtml";
 }
-<h2>Editar Comuna</h2>
+
+<h2>Nueva Región</h2>
 
 
-@using (Html.BeginForm())
+@using (Html.BeginForm()) 
 {
     @Html.AntiForgeryToken()
     
@@ -15,13 +16,11 @@
        
         <hr />
         @Html.ValidationSummary(true, "", new { @class = "text-danger" })
-        @Html.HiddenFor(model => model.ID_COMUNA)
-
         <div class="form-group">
-            @Html.LabelFor(model => model.ID_PROVINCIA, "ID_PROVINCIA", htmlAttributes: new { @class = "control-label col-md-4" })
+            @Html.LabelFor(model => model.ID_REGION, htmlAttributes: new { @class = "control-label col-md-4" })
             <div class="col-md-8">
-                @Html.DropDownList("ID_PROVINCIA", null, htmlAttributes: new { @class = "form-control" })
-                @Html.ValidationMessageFor(model => model.ID_PROVINCIA, "", new { @class = "text-danger" })
+                @Html.EditorFor(model => model.ID_REGION, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.ID_REGION, "", new { @class = "text-danger" })
             </div>
         </div>
 
@@ -30,15 +29,16 @@
             <div class="col-md-8">
                 @Html.EditorFor(model => model.DESCRIPCION, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.DESCRIPCION, "", new { @class = "text-danger" })
-            </div>
+             </div>
         </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Guardar" class="btn btn-default" />
-            </div>
+        <div align="right">
+            @*<button  type="button" value="Salir" class="btn btn-default close" />*@
+            <button type="button" class="btn btn-default close" ><span aria-hidden="true">Salir</span></button>
+            <input type="submit" value="Guardar" class="btn btn-primary" />
         </div>
-    </div>
+
+        </div>
 }
 
 @*<div>

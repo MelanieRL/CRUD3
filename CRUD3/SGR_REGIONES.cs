@@ -11,17 +11,21 @@ namespace CRUD3
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
+
     public partial class SGR_REGIONES
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+       
         public SGR_REGIONES()
         {
             this.SGR_EMPRESAS = new HashSet<SGR_EMPRESAS>();
             this.SGR_PROVINCIAS = new HashSet<SGR_PROVINCIAS>();
         }
-    
+        [Required]
         public decimal ID_REGION { get; set; }
+        [Required]
         public string DESCRIPCION { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

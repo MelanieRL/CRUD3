@@ -1,0 +1,26 @@
+﻿@model CRUD3.SGR_REGIONES
+
+@{
+    //ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout-dialog.cshtml";
+}
+<h2>Detalles</h2>
+
+<div>
+  
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_REGION }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

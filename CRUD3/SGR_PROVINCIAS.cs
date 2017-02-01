@@ -11,7 +11,8 @@ namespace CRUD3
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class SGR_PROVINCIAS
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,9 +20,11 @@ namespace CRUD3
         {
             this.SGR_COMUNAS = new HashSet<SGR_COMUNAS>();
         }
-    
+        [Required]
         public decimal ID_PROVINCIA { get; set; }
+        [Required]
         public Nullable<decimal> ID_REGION { get; set; }
+        [Required]
         public string DESCRIPCION { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

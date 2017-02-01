@@ -213,6 +213,8 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\SGR_COMUNASController.cs" />
     <Compile Include="Controllers\SGR_PLANTASController.cs" />
+    <Compile Include="Controllers\SGR_PROVINCIASController.cs" />
+    <Compile Include="Controllers\SGR_REGIONESController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -357,6 +359,8 @@
     <Content Include="Scripts\jquery.validate.min.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\Modales\regiones.js" />
+    <Content Include="Scripts\Modales\provincias.js" />
     <Content Include="Scripts\Modales\comunas.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\Modales\plantas.js" />
@@ -408,6 +412,16 @@
     <Content Include="Views\SGR_COMUNAS\Edit.cshtml" />
     <Content Include="Views\SGR_COMUNAS\Index.cshtml" />
     <Content Include="Views\Shared\_Layout-dialog.cshtml" />
+    <Content Include="Views\SGR_PROVINCIAS\Create.cshtml" />
+    <Content Include="Views\SGR_PROVINCIAS\Delete.cshtml" />
+    <Content Include="Views\SGR_PROVINCIAS\Details.cshtml" />
+    <Content Include="Views\SGR_PROVINCIAS\Edit.cshtml" />
+    <Content Include="Views\SGR_PROVINCIAS\Index.cshtml" />
+    <Content Include="Views\SGR_REGIONES\Create.cshtml" />
+    <Content Include="Views\SGR_REGIONES\Delete.cshtml" />
+    <Content Include="Views\SGR_REGIONES\Details.cshtml" />
+    <Content Include="Views\SGR_REGIONES\Edit.cshtml" />
+    <Content Include="Views\SGR_REGIONES\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

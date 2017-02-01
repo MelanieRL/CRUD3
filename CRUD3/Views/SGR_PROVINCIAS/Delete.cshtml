@@ -1,0 +1,41 @@
+﻿@model CRUD3.SGR_PROVINCIAS
+
+@{
+    //ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_Layout-dialog.cshtml";
+}
+
+<h2>Eliminar</h2>
+
+<h3>¿Está seguro que desea eliminar?</h3>
+<div>
+    <h4>SGR_PROVINCIAS</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_REGIONES.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_REGIONES.DESCRIPCION)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Eliminar" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
