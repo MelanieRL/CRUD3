@@ -36,3 +36,29 @@
     .table td {
         border: 2px solid #A8C6FA;
     }
+
+
+
+
+.header{
+    background-color: #1ebaf2 !important;
+    border-bottom: 0px !important;
+
+}
+.title-aguas{
+    color:white!important;
+    font-family:Helvetica;
+    font-size:25px;
+    padding-top:10px;
+}
+.title-SGR{
+    color:white!important;
+    font-family:Helvetica;
+    font-size:25px;
+    padding-left:50px;
+}
+.sing-up ul li a{
+    color:white !important;
+    font-family:Helvetica;
+    font-size:25px;
+}
