@@ -211,6 +211,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\SGR_CLIENTESController.cs" />
     <Compile Include="Controllers\SGR_COMUNASController.cs" />
     <Compile Include="Controllers\SGR_PLANTASController.cs" />
     <Compile Include="Controllers\SGR_PROVINCIASController.cs" />
@@ -422,6 +423,11 @@
     <Content Include="Views\SGR_REGIONES\Details.cshtml" />
     <Content Include="Views\SGR_REGIONES\Edit.cshtml" />
     <Content Include="Views\SGR_REGIONES\Index.cshtml" />
+    <Content Include="Views\SGR_CLIENTES\Create.cshtml" />
+    <Content Include="Views\SGR_CLIENTES\Delete.cshtml" />
+    <Content Include="Views\SGR_CLIENTES\Details.cshtml" />
+    <Content Include="Views\SGR_CLIENTES\Edit.cshtml" />
+    <Content Include="Views\SGR_CLIENTES\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

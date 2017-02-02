@@ -1,0 +1,387 @@
+﻿@model IEnumerable<CRUD3.SGR_CLIENTES>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_RUBRO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUT_CLIENTE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOMBRE_CLIENTE)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.REP_LEGAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUT_REP_LEGAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DV_REP_LEGAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_SISS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NOMBRE_FANTASIA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_CONTRATO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DIRECCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SECTOR)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FONO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FAX)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CASILLA_POSTAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CODIGO_POSTAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CONTACTO1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUT_CONTACTO1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL_CONTACTO1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FONO_CONTACTO1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CONTACTO2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUT_CONTACTO2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL_CONTACTO2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FONO_CONTACTO2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CONTACTO_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RUT_CONTACTO_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL_CONTACTO_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FONO_CONTACTO_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IDENT_CONCES_DGA_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NRO_RCA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ANO_RCA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CONV_DGA_DSMOP)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FECHA_ENT_OPER_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VOLUMEN_DESCARGA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NRO_DESCARGAS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RPM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NRO_RPM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LINK_RPM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.FECHA_T4_RPM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_CON_DIRECTO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_CON_CONVENIO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_CON_OPERATIVO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_EXCEDENTES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_DGA_RILES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_DGA_AS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ID_DGA_RESIDUOS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CAMPO_F_1)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CAMPO_F_2)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CAMPO_F_3)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CAMPO_F_4)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CAMPO_F_5)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GIRO)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RAZON_SOCIAL)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_PLANTAS.COD_SISS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_EMPRESAS.NOMBRE_EMPRESA)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_COMUNAS.DESCRIPCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_TIPOS_CLIENTE.DESCRIPCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_ESTADOS_CLIENTE.DESCRIPCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_TIPOS_CALC_EXC.DESCRIPCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_TIPOS_SIST_TRAT.DESCRIPCION)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SGR_FRECUENCIAS_MUES.DESCRIPCION)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_RUBRO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUT_CLIENTE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOMBRE_CLIENTE)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.REP_LEGAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUT_REP_LEGAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DV_REP_LEGAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_SISS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NOMBRE_FANTASIA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_CONTRATO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DIRECCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SECTOR)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FONO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FAX)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CASILLA_POSTAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CODIGO_POSTAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CONTACTO1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUT_CONTACTO1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL_CONTACTO1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FONO_CONTACTO1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CONTACTO2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUT_CONTACTO2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL_CONTACTO2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FONO_CONTACTO2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CONTACTO_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RUT_CONTACTO_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL_CONTACTO_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FONO_CONTACTO_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IDENT_CONCES_DGA_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NRO_RCA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ANO_RCA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CONV_DGA_DSMOP)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FECHA_ENT_OPER_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VOLUMEN_DESCARGA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NRO_DESCARGAS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RPM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NRO_RPM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LINK_RPM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.FECHA_T4_RPM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_CON_DIRECTO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_CON_CONVENIO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_CON_OPERATIVO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_EXCEDENTES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_DGA_RILES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_DGA_AS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ID_DGA_RESIDUOS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CAMPO_F_1)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CAMPO_F_2)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CAMPO_F_3)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CAMPO_F_4)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CAMPO_F_5)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.GIRO)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.RAZON_SOCIAL)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_PLANTAS.COD_SISS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_EMPRESAS.NOMBRE_EMPRESA)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_COMUNAS.DESCRIPCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_TIPOS_CLIENTE.DESCRIPCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_ESTADOS_CLIENTE.DESCRIPCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_TIPOS_CALC_EXC.DESCRIPCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_TIPOS_SIST_TRAT.DESCRIPCION)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SGR_FRECUENCIAS_MUES.DESCRIPCION)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID_SGR }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID_SGR }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID_SGR })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,498 @@
+﻿@model CRUD3.SGR_CLIENTES
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>SGR_CLIENTES</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_RUBRO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_RUBRO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RUT_CLIENTE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RUT_CLIENTE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOMBRE_CLIENTE)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOMBRE_CLIENTE)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.REP_LEGAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.REP_LEGAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RUT_REP_LEGAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RUT_REP_LEGAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DV_REP_LEGAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DV_REP_LEGAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_SISS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_SISS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NOMBRE_FANTASIA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NOMBRE_FANTASIA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_CONTRATO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_CONTRATO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DIRECCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DIRECCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SECTOR)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SECTOR)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FONO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FONO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FAX)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FAX)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CASILLA_POSTAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CASILLA_POSTAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CODIGO_POSTAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CODIGO_POSTAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CONTACTO1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CONTACTO1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RUT_CONTACTO1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RUT_CONTACTO1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EMAIL_CONTACTO1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EMAIL_CONTACTO1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FONO_CONTACTO1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FONO_CONTACTO1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CONTACTO2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CONTACTO2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RUT_CONTACTO2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RUT_CONTACTO2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EMAIL_CONTACTO2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EMAIL_CONTACTO2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FONO_CONTACTO2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FONO_CONTACTO2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CONTACTO_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CONTACTO_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RUT_CONTACTO_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RUT_CONTACTO_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EMAIL_CONTACTO_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EMAIL_CONTACTO_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FONO_CONTACTO_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FONO_CONTACTO_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.IDENT_CONCES_DGA_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.IDENT_CONCES_DGA_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NRO_RCA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NRO_RCA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ANO_RCA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ANO_RCA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CONV_DGA_DSMOP)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CONV_DGA_DSMOP)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_ENT_OPER_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_ENT_OPER_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.VOLUMEN_DESCARGA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.VOLUMEN_DESCARGA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NRO_DESCARGAS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NRO_DESCARGAS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RPM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RPM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NRO_RPM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NRO_RPM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LINK_RPM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LINK_RPM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.FECHA_T4_RPM)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FECHA_T4_RPM)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_CON_DIRECTO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_CON_DIRECTO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_CON_CONVENIO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_CON_CONVENIO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_CON_OPERATIVO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_CON_OPERATIVO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_EXCEDENTES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_EXCEDENTES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_DGA_RILES)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_DGA_RILES)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_DGA_AS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_DGA_AS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ID_DGA_RESIDUOS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ID_DGA_RESIDUOS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CAMPO_F_1)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CAMPO_F_1)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CAMPO_F_2)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CAMPO_F_2)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CAMPO_F_3)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CAMPO_F_3)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CAMPO_F_4)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CAMPO_F_4)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CAMPO_F_5)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CAMPO_F_5)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GIRO)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GIRO)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RAZON_SOCIAL)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RAZON_SOCIAL)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_PLANTAS.COD_SISS)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_PLANTAS.COD_SISS)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_EMPRESAS.NOMBRE_EMPRESA)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_EMPRESAS.NOMBRE_EMPRESA)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_COMUNAS.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_COMUNAS.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_TIPOS_CLIENTE.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_TIPOS_CLIENTE.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_ESTADOS_CLIENTE.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_ESTADOS_CLIENTE.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_TIPOS_CALC_EXC.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_TIPOS_CALC_EXC.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_TIPOS_SIST_TRAT.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_TIPOS_SIST_TRAT.DESCRIPCION)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SGR_FRECUENCIAS_MUES.DESCRIPCION)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SGR_FRECUENCIAS_MUES.DESCRIPCION)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID_SGR }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
