@@ -19,57 +19,59 @@
         @Html.HiddenFor(model => model.ID_PLANTA)
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ID_EMPRESA, "ID_EMPRESA", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            @Html.LabelFor(model => model.ID_EMPRESA, "ID_EMPRESA", htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
                 @Html.DropDownList("ID_EMPRESA", null, htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.ID_EMPRESA, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.COD_SISS, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            @Html.LabelFor(model => model.COD_SISS, htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
                 @Html.EditorFor(model => model.COD_SISS, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.COD_SISS, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.DESCRIPCION, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            @Html.LabelFor(model => model.DESCRIPCION, htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
                 @Html.EditorFor(model => model.DESCRIPCION, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.DESCRIPCION, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ID_LOCALIDAD, "ID_LOCALIDAD", htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            @Html.LabelFor(model => model.ID_LOCALIDAD, "ID_LOCALIDAD", htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
                 @Html.DropDownList("ID_LOCALIDAD", null, htmlAttributes: new { @class = "form-control" })
                 @Html.ValidationMessageFor(model => model.ID_LOCALIDAD, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.FECHA_OPERACION, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            @Html.LabelFor(model => model.FECHA_OPERACION, htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
                 @Html.EditorFor(model => model.FECHA_OPERACION, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.FECHA_OPERACION, "", new { @class = "text-danger" })
             </div>
         </div>
 
         <div class="form-group">
-            @Html.LabelFor(model => model.ACTIVO, htmlAttributes: new { @class = "control-label col-md-2" })
-            <div class="col-md-10">
+            @Html.LabelFor(model => model.ACTIVO, htmlAttributes: new { @class = "control-label col-md-4" })
+            <div class="col-md-8">
                 @Html.EditorFor(model => model.ACTIVO, new { htmlAttributes = new { @class = "form-control" } })
                 @Html.ValidationMessageFor(model => model.ACTIVO, "", new { @class = "text-danger" })
             </div>
         </div>
 
-        <div class="form-group">
-            <div class="col-md-offset-2 col-md-10">
-                <input type="submit" value="Guardar" class="btn btn-default" />
-            </div>
+        <div align="right">
+
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancelar</button>
+
+
+            <input type="submit" value="Guardar" class="btn btn-primary" />
         </div>
     </div>
 }

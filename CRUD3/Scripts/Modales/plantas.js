@@ -1,6 +1,6 @@
 ﻿$("#btnNuevo").click(function (eve) {
-    $("#modal-content").load("/SGR_PLANTAS/Create");
+    $("#modal-content").load($("#urlSitio").val() + "SGR_PLANTAS/Create");
 });
 $(".btnEditar").click(function (eve) {
-    $("#modal-content").load("/SGR_PLANTAS/Edit/"+$(this).data("id"));
+    $("#modal-content").load($("#urlSitio").val() + "SGR_PLANTAS/Edit/" + $(this).data("id"));
 });
